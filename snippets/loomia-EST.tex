@@ -1,0 +1,692 @@
+%% main source file
+%%
+\documentclass[manuscript,review,anonymous]{acmart}
+
+%% PACKAGES
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{soul}
+
+\definecolor{shadecolor}{rgb}{0.98, 0.93, 0.36}
+% \begin{shaded}
+% \noindent
+% \textit{ANONYMIZATION NOTE: because the authors' positionalities are significant to the research process, findings, and discussion, we will use the codes A1, A2, and A3 to refer to individual authors.}
+% \end{shaded}
+
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmcopyright}
+\copyrightyear{2022}
+\acmYear{2022}
+\acmDOI{10.1145/XXXXXXXXX.XXXXXXX}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference{Gathering '54: ACM Symposium on Something}{Spring 3054}{Billings, MT}
+\acmBooktitle{Gathering '54: ACM Symposium on Something,
+  Spring 3054, Billings, MT}
+\acmPrice{15.00}
+\acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+% \citestyle{acmauthoryear}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title[``Build relationships, then tools"]{``Build relationships, then tools": constructing a place for sustainable values in e-textiles/smart textiles design}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{A1}
+\email{someone@university.edu}
+\affiliation{%
+  \institution{Anon U}
+  \streetaddress{123 Street}
+  \city{Anytown}
+  \state{Somestate}
+  \country{USA}
+  \postcode{12345-6789}
+}
+% \orcid{1234-5678-9012}
+
+\author{A2}
+\email{person@startup.com}
+\affiliation{%
+  \institution{Flexsu Electronics}
+  \streetaddress{456 Road}
+  \city{Somewhere}
+  \state{Outhere}
+  \country{USA}
+  \postcode{78901-2345}
+}
+
+\author{A3}
+\email{another.one@university.edu}
+\affiliation{%
+  \institution{Anon U}
+  \streetaddress{123 Street}
+  \city{Anytown}
+  \state{Somestate}
+  \country{USA}
+  \postcode{12345-6789}
+}
+
+% \authornote{Anonymized for submission.}
+
+%% This command allows
+%% the author to define a more concise list
+%% of authors' names.
+\renewcommand{\shortauthors}{A1, et al.}
+
+\newcommand{\todo}[2][TODO]{\hl{\textbf{[#1]} #2}}
+\newcommand{\todocite}{\todo[CITE]{}}
+\newcommand{\keytermemph}[1]{\textbf{\textit{#1}}}
+\newcommand{\keyterm}[1]{\textit{#1}}
+\newcommand{\citedterm}[1]{\textit{#1}}
+
+\newcommand{\updated}[1]{\hl{#1}}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+The e-textiles/smart textiles (E/ST) field seeks to integrate electronics and textiles technologies to create future wearable, flexible devices, posing unique challenges for sustainability. We summarize a mixed-methods study of E/ST practitioners, a collaboration between two academic researchers and a start-up CEO, probing implicit values in E/ST design and informing product development in flexible electronic prototyping components, prompting reflections on the role of sustainability in E/ST disciplinary values.
+The study was conducted in three phases of surveys/interviews themed on E/ST language, prototyping, and manufacturing practices. 
+Using our central finding of how personal relationships drove E/ST practices, we connect observations to similar themes from sustainability discourses in design, HCI, and grassroots activism. 
+We present our reflections as a ``speculative construction" that combines design justice's \emph{retooling} methodology with speculative design concepts to formulate tools for a future sustainable E/ST design community and to provoke further design inquiries.
+% The e-textiles/smart textiles (E/ST) field seeks to integrate electronics and textiles technologies to create future wearable, flexible devices, posing unique challenges for a sustainable industry. 
+% %With practitioners in academia and industry, technical and creative development, and many other spaces, E/ST also poses concerns for sustainability from several perspectives. 
+% We report on a mixed-methods study of E/ST practitioners, done in collaboration between two academic researchers and a CEO of a flexible electronics start-up to probe implicit values in E/ST design and inform the product development of electronic prototyping components for makers, which prompted reflections on the role of sustainability in such disciplinary values. 
+% The study was conducted in three phases of surveys/interviews themed on language, prototyping, and manufacturing practices in E/ST. 
+% Using the central finding of how personal relationships drove E/ST practices among participants, we connect our observations to similar themes in sustainability discourses in design, HCI, and grassroots organizing. 
+% We present our reflections as a ``speculative construction" that combines design justice's \emph{retooling} methodology with concepts from speculative design to formulate potential tools for a future sustainable E/ST design community and to provoke further design inquiries.
+%We used this central finding with a combination of \emph{retooling} from design justice and speculative methods to connect our observations to sustainability threads in HCI and grassroots organizing, identifying design opportunities in constructing a future sustainable E/ST community of practice to provoke further design and collaborative research.
+
+
+% -- a language survey, interviews from a beta test of the start-up's prototype, and a set of unstructured interviews with manufacturing experts in relevant products -- 
+% we found how personal relationships drove E/ST practices in language use, prototyping, and manufacturing. This central finding inspired us to speculate on sustainable E/ST as a future practice. Using speculative design to connect our observations to sustainability threads in HCI, design justice, and grassroots organizing, we identify potential features of a sustainable E/ST community of practice, and propose opportunities for future design and collaborative research. 
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+% TODO: replace for submission
+\begin{CCSXML}
+<ccs2012>
+ <concept>
+  <concept_id>10010520.10010553.10010562</concept_id>
+  <concept_desc>Computer systems organization~Embedded systems</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010520.10010575.10010755</concept_id>
+  <concept_desc>Computer systems organization~Redundancy</concept_desc>
+  <concept_significance>300</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010520.10010553.10010554</concept_id>
+  <concept_desc>Computer systems organization~Robotics</concept_desc>
+  <concept_significance>100</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10003033.10003083.10003095</concept_id>
+  <concept_desc>Networks~Network reliability</concept_desc>
+  <concept_significance>100</concept_significance>
+ </concept>
+</ccs2012>
+\end{CCSXML}
+
+% TODO
+\ccsdesc[500]{REPLACE ~ FOR SUBMISSION}
+\ccsdesc[300]{RE~PLACE}
+\ccsdesc{REP~LACE}
+\ccsdesc[100]{REPLACE~replace}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{}
+
+%%
+%% This command processes the author and affiliation and title
+\maketitle
+
+\section{Introduction}
+
+``E-textiles" and ``smart textiles" (E/ST) have both been used to refer to the field of emergent technology integrating textiles technologies with digital electronics. As the contested name suggests, this interdisciplinary field attracts a multiplicity of perspectives and work practices within a shared space. Even as a growing field, E/ST already faces issues grounded in contemporary sociopolitical problems. Specifically, we will focus on E/ST's concerns about sustainability. As researchers in human-computer interaction (HCI), fashion, and other disciplines have noted, E/ST products could potentially contribute to both electronic waste ("e-waste") and textile waste, two of the largest global waste streams
+% SOURCES
+\cite{sandin_environmental_2018, forti_global_2020}.
+In considering the histories of textile industrialization and its current legacy in driving globalized climate change and industrial waste, we feel that E/ST, by inheriting these legacies and engaging with existing textiles (and electronics) manufacturing structures in the present, has a particular responsibility to attend to sustainable values, design, and development. 
+
+Contemporary textile manufacturing builds upon centuries of iterative machine and infrastructural adjustments, accumulating the material practices, political trends, and design choices of the past. As an illustrative example of how this accumulated structure poses concrete challenges for creating more sustainable manufacturing systems, consider the history of linen versus cotton in consumer textiles. Today, textiles manufacturing is overwhelmingly dominated by cotton fibers, and years of tool development have created equipment especially for cotton (e.g. the cotton gin) and optimized processes that are universal to textiles (weaving, spinning, and finishing) to assume cotton fibers as the default. As a result, even though the industry is realizing cotton's harmful environmental impacts and has identified lower-impact fibers such as linen and hemp, the factories that have been optimized for cotton's short, airy fibers are ill-equipped to handle linen's long, smooth fibers. \cite{kozlowski_handbook_2020}
+
+We use this example to illustrate how choices and values in tool design can propagate within infrastructure to have tangible consequences for (un)sustainability. This example becomes even more relevant to climate activism and intersectional justice when we consider how cotton was industrialized via European colonization of India, entangling its story with ``the story of the making and remaking of global capitalism and...the modern world." (from \textit{Empire of Cotton: A Global History} \cite{beckert_empire_2015}) We see opportunities for design interventions from E/ST practitioners to take up values and develop tools that will push for an opposite, beneficial impact on sustainable development.
+As E/ST practitioners work to develop the technology to ``scale" beyond lab prototypes into a future industry, we want to proactively raise questions of how E/ST can develop as a \textit{sustainable} technology in its emergent stages. In pursuing sustainable E/ST, we seek possible roles for HCI research to effectively serve this mission. What tactics could E/ST draw upon from sustainable HCI, research through design, climate activism, and other bodies of work?
+
+In the following paper, we\footnote{ANONYMIZATION NOTE: because the authors' positionalities are significant to the research process, findings, and discussion, we will use the codes A1, A2, and A3 to refer to individual authors.} 
+describe and reflect upon a collaborative study conducted between two academic researchers (A1 and A3) and one industry start-up CEO (A2, Flexsu company\footnote{pseudonym for double-blind review}) to investigate aspects of E/ST practice (language, prototyping, and manufacturing), originally for implicit disciplinary values such as ``scalability" and sustainability, that would both inform product development and open further opportunities for collaborative design inquiries. Our central finding of how social relationships drove developments in E/ST design prompted connections to similar themes in environmental activism and sustainable futures, inspiring us to imagine how we might support relationship-building in E/ST as a first step to create space for more changes relating to sustainability. We combined our observations with ideas from design justice and speculative design in what we call ``speculative constructions", conceptualizing tools for us as E/ST designers to build more sustainable communities of practice. We contribute two things: first, qualitative data to support our claim that relationship-building will play a central role in scaling E/ST technologies; and second, our speculative constructions as provocations for other E/ST designers to consider their sociocultural subjectivities (i.e. relationships) as design opportunities for engaging with sustainability and other broader implications of an emergent technology.   
+
+
+% Using these observations with the organizing principle of ``relationships", we contribute an analysis of \textbf{E/ST as a rich site of future engagements with sustainable HCI, design justice, and other domains advancing inter-sectional sustainability}. 
+
+% Using these observations with the organizing principle of “relationships", we contribute an analysis of
+% E/ST as a rich site of future engagements with sustainable HCI, design justice, and other domains advancing
+% intersectional sustainability
+
+% We craft a \keyterm{speculative construction} of an E/ST community of practice, synthesizing ideas from design justice and speculative design to develop concepts that \textit{retool} aspects of E/ST practice to foreground relationships and sustainability in the work, and that identify actionable opportunities for design research to align with sustainable values.
+
+\section{Background}
+
+E/ST and sustainability both fall across the intersections of many domains, including HCI, artistic practices, and global industry. To situate our inquiry into the intersection of these intersections, we will review key areas of research in both, as well as common perspectives in contesting open questions of what defines ``E/ST" and what ``sustainability" means. We also briefly note how speculative tactics help practitioners interrogate these values and negotiate futures.
+
+\subsection{E-textiles / Smart Textiles}
+
+
+% Reviews in engineering go over technological parts of how to combine them. Reviews in HCI and CSCW go into the social dimensions of what it means to combine the technologies. 
+Broadly defined, the e-textiles/smart textiles (E/ST) field seeks to integrate textile technologies with digital electronics. Potential applications include smart garments for healthcare, sportswear, and
+next-generation wearable devices \cite{stoppa_wearable_2014},
+as well as educational tools for teaching electronics and computational thinking through textile crafts \cite{kafai_ethnocomputing_2014, buechley_lilypad-edu_2008}. Researchers use both ``e-textiles" and "smart textiles", sometimes interchangeably, in the literature. So as to not bias later discussions of this uncertainty in language, we have selected ``E/ST" as a compromise.
+While most of this work has occurred in lab prototypes, there have been a few examples of commercially-available E/ST products such as Google and Levi's Project Jacquard denim jackets, and the Arduino Lilypad product line \cite{poupyrev_project_2016, buechley_lilypad_2008}
+. However these examples still represent specialty products, marketed towards early-adopters or those interested in making or learning how to make electronic circuits.
+% LIST APPLICATIONS
+While E/ST technical development generally falls under the umbrella of pervasive or ubiquitous computing \cite{marculescu_electronic_2003}, work can be found across engineering \cite{liu_advances_2018, afroj_engineering_2019, lund_roll--roll_2018} % CITE
+, textile and fashion design \cite{mcquillan_hybrid_2019, fairburn_spheres_2016} % CITE
+, and human-computer interaction \cite{nachtigall_five-year_2018, posch_etextiles_2019} % CITE
+and draw from multiple disciplinary vernaculars which have developed in parallel. 
+
+Even in its present form without much of a presence in global commodity markets, sustainability is already a concern for E/ST's future. Both e-waste \cite{robinson_e-waste:_2009,forti_global_2020} and textile waste \cite{sandin_environmental_2018,muthu_textiles_2017} are established, active issues to address in combating industrially-driven environmental hazards and developing more sustainable systems. Beyond the consumption and disposal of these technologies, researchers are also concerned with wastefulness in the prototyping \cite{dew_designing_2019, wall_scrappy_2021} % CITE
+and manufacturing \cite{machado_sustainable_2020, schoggl_narrative_2020}
+processes that feed the industries. 
+% How does the field use language, prototyping, and manufacturing as a way to collaborate on topics of interest? How can we effectively steer more conversation towards sustainability? Let's talk more about sustainability in the next section.
+Yet ``sustainability" is a broad area of research with implications for many technological fields, so we will separately review sustainability perspectives and related work, especially in HCI and creative industries.
+
+\subsection{Our Position: Sustainability as Intersectional Climate Justice}
+
+Mainstream discussions generally conceive of contemporary human society as \textit{unsustainable}. Major industrial voices across technological sectors such as Unilever\footnote{https://www.unilever.com/planet-and-society/}, H\&M\footnote{https://hmgroup.com/sustainability/}, and STMicroelectronics\footnote{https://www.st.com/content/st\textunderscore
+com/en/about/st\textunderscore
+approach\textunderscore
+to\textunderscore
+sustainability/st\textunderscore
+approach\textunderscore
+to\_sustainability.html} (Europe’s largest semiconductor manufacturer whose customers include Apple, Cisco, and Samsung) acknowledge the need for system-wide changes to drastically shrink their environmental impact to continue operations. % CITE from prelims
+Nonprofits such as the Ellen Macarthur Foundation (whose mission is to create the “circular economy”) and consulting firms such as Accenture (who offers “sustainability goals” consulting among their services) include supply chains and business values among the many infrastructural aspects that need to be transformed. In the words of system theorist Horst Rittel, attaining sustainability and averting global climate disaster is indeed a “wicked” problem \cite{rittel_dilemmas_1969}.
+
+We endorse that sustainability is not only a matter of environmental regulation, but more essentially, it is justice and decolonization. As several scholar-activists have stated, the root cause of the climate crisis is capitalism -- particularly the extractive aspects of capitalism which emphasize mass exploitation of natural resources, industrialized production and distribution, and structural inequality to enforce an extremely privileged minority of humans. Rather than calling the present the "Anthropocene", a more fitting term would be the "Capitolocene" \cite{haraway_staying_2016, sze_environmental_2020}. Even more insightful observations come from Indigenous scholars who name that this capitalist hegemony is built upon settler-colonialism and centuries of oppression. As Kyle Whyte, a Potowatomi scholar-activist and philosopher writes, "Anthropogenic (human-caused) climate change is an intensification of environmental change imposed on Indigenous peoples by colonialism." \cite{whyte_weaving_2016} We subscribe to the definition that sustainability is a state of "collaboration" between humans and environments, which expands the possible avenues for considering  humans vs. "nature" as stakeholders in the environment \cite{kimmerer_braiding_2015, tallbear_standing_2014}.
+Another reframing of an 
+unsustainable system is as a failure of relationships with these other stakeholders, which then can lead to a restorative justice framework of identifying the perpetrators, auditing the harms, and working on reparations \cite{whyte_indigenous_2017}.
+This framework is grounded in material consequences and tangible actions in the world, following the definition of decolonizing by Eve Tuck (Unanga\^{x}) in her influential article "Decolonization is not a metaphor" \cite{tuck_decolonization_2012}
+, that the movement to "decolonize"  must strictly refer to returning colonized land to their original peoples and repairing Indigenous land-based relationships.
+% There's lots of research on how climate change is driven by industrial processes. 
+% There's also research on how climate change and environmental damage is caused by colonialism. Anti-colonialism and environmental justice are also established fields of research and activism in social justice, which have been connected back to how they are part of achieving sustainability.
+% That was mostly on the sociopolitical side of how to make the world more sustainable, but 
+
+While framing sustainability as an issue deeply entangled with other wicked social injustices may seem to frustrate the issue even further, it also connects to empowering frameworks on restorative justice, community organizing, and other tangible ways of practicing social good in everyday life, while supporting broader radical change. As activists Hi'ilei Hobart and Tamara Kneese capture in their book Radical Care, contemporary movements such as Standing Rock \#NoDAPL and Occupy have positioned themselves as "protectors" of relationships: protecting Indigenous peoples' relationships with their ancestral lands, protecting familial relationships among undocumented migrants, and establishing their own care-based relationships to sustain these protections -- "Care, then, is fundamental to social movements." \cite{hobart_radical_2020} Citing Angela Davis, they explain that "individual impulses and interior lives, the intimate and banal details of family histories and personal experiences, are directly connected to external forces." By centering care and emotional investment of time and energy as a source of collective power in political organizing \cite{mcalevey_no_2016, sze_environmental_2020}, framing sustainability as an issue of intersectional justice emphasizes how people can make observable progress in their communities in addressing seemingly-intractable problems such as climate crisis.
+
+\subsection{Current Approaches to Sustainability and E/ST}
+
+% \todo[90\% DONE]{aligned discourses in HCI}
+% there's a lot of people working on sustainability as a technological issue, too. People are studying current systems for ways that people try to work sustainably with what they have. 
+Our work intersects with that of practitioners in sustainable HCI and sustainability initiatives in E/ST industries. In designing tangible products, sustainable development must consider the material impacts of these goods throughout their lifecycles: at design (prototyping) time, during production and sourcing, in transit, and at end-of-life. Particularly for design in HCI, Lazaro et al. \cite{lazaro_sustainable_2020} describes a ``sustainable prototyping life cycle" for designers to consider the environmental impacts of different stages in prototyping and fabrication processes. One sustainable design framework which has gained traction across academia and industry is \textit{circularity}, where ``everything is a resource for something else." \cite{c2c_green_2017} As a fundamental reconfiguration of the notion of ``lifecycle", circular design has generated supporting concepts such as ``remanufacturing" \cite{nasr_fundamentals_2020} and ``reverse supply chains" \cite{battaia_reverse_2015}. Sustainable HCI provides several tools that reckon with such an epistemological shift towards \textit{sustainable interaction design} \cite{blevis_sid_2007}, such as a framework for understanding sustainable social practices \cite{entwistle_beyond_2015}, ``disintermediation" as a design rubric for interaction design \cite{raghavan_means_2017}, and alternative evaluation methods for ``usability" that considers alternative product lifecycles \cite{remy_evaluation_2018}. These tools promote sustainable values and mindsets for designers of digital technologies, as well as users of these sociotechnical systems. 
+
+Specific to textiles and fashion, designers are generally aware of the unsustainability of the global industry and engaging with the aforementioned sustainable design strategies \cite{brydges_closing_2021, kohler_challenges_2013, veske_review_2020}. E/ST practitioners have explored the unique affordances of textiles for sustainable design tactics, such as the ability to repair textiles-based technologies by darning \cite{jones_e-darning_2021} and inherent structural compatibility with \textit{designing for disassembly} \cite{wu_unfabricate_2020}. Designers in E/ST (and more broadly in textiles/fashion) recognize the particular social dimensions in which their artifacts are situated, so research on sustainable textiles often emphasizes personal relationships, intimate bodily contact, and sentimental value -- for example, Fletcher's \textit{Craft of Use} \cite{fletcher_craft_2016} and Kuusk's work on service-based, personalized production of sustainable smart textiles \cite{kuusk_crafting_2016}. Expanding beyond individual practices, sustainable textiles has found homes in collaborative, distributed efforts including the EU Wear Sustain Network \cite{goodman_wear_2018} between artists and industry, and textile waste marketplaces like Queen of Raw \footnote{https://www.queenofraw.com/} and Fab Scrap \footnote{https://fabscrap.org}.
+
+% They're also trying to design more sustainable systems to replace the present ones. One example of a design approach is circularity. People talk about the "circular economy" and what systems, infrastructures, and policies need to be changed or rebuilt to make it happen. 
+
+% Other design approaches are "modularity", "recycling", "reusability", "biodegradability", and other features of sustainable design. We see these as tactics that might be future components of sustainability.
+
+% These sustainable tools and concepts are propagated 
+
+% --add a few sentences here marking how we intersect with sustainable HCI, sustainability and speculation, and sustainable E/ST initiatives. 
+% something about how HCI has been tackling sustainability and efforts currently in place to support sustainable textiles (EU wear sustain, Queen of Raw, Fab Scrap)}
+
+Given the intersectional nature of sustainability, and the entangled histories of textiles and computing development with global inequities as previously discussed, we also find relevant discourses in the HCI for Development (HCI4D) and Postcolonial Computing communities. In examining the distinct methodological challenges from the Global North \cite{chetty_hci4d_2007}, research in the Global South vitally explores issues of alternative infrastructures for craft \cite{jack_infrastructure_2017, zhang_designing_2019}, and the disproportionate impact of industrial waste \cite{rifat_breaking_2019} and colonial legacies \cite{philip_postcolonial_2012, irani_postcolonial_2010}, directly related to sustainable E/ST's responsibility to reckon with the global inequity driving industrialized climate change.
+
+\section{Methods: Crafting a Speculative Construction}
+
+Our methods incorporated elements of qualitative interviews \cite{braun_online_2020, fontana_interviewing_2007} and thematic analysis \cite{maguire_doing_2017, braun_using_2006} in social research to collect participant data.
+We use the term \keyterm{speculative construction} to describe our primary generative tactic for bridging these qualitative observations with ideas from design justice and speculative design to envision a sustainable E/ST community of practice. Foremost, our vision centers \citedterm{design justice} \cite{costanza-chock_design_2020} and finds roots in observed practices and politics of E/ST. The ``speculative" component alludes to \citedterm{speculative design}, notably summarized in Dunne \& Raby's \textit{Speculative Everything} \cite{dunne_speculative_2013} and often overlapping with \textit{design fiction}, which has been taken up in HCI to push design beyond specific objects to consider designed artifacts as ideas that suggest possible futures and systems, as well as alternative presents and histories \cite{akama_speculative_2016, baumann_infrastructures_2017, wakkary_sustainable_2013}. However, we specifically describe this work as \textit{speculative} rather than a full \textit{speculation}, as we do not present a coherent design world but still draw on the methodology's core concepts.
+
+One such core value in speculative design is considering the wide array of \textit{possible} futures and identifying the \textit{plausible} futures for deeper speculation. Out of these plausible ones, researchers can inquire into \textit{preferable} futures aligned with certain values. We use our data to guide our viewfinder to "plausible" futures, and design justice to focus on "preferable" futures.
+Prior research has also taken up speculative methods to center sustainable values. Especially relevant to our study of sustainability in emergent technology is Liu et al.'s exploration of ``collaborative survival" \cite{liu_design_2018}, stemming from a speculative design inquiry in pushing sociotechnical entanglements towards more ``preferable" sustainable futures, as well as Wong et al.'s toolset for ``infrastructural speculations" \cite{wong_infrastructural_2020}. Both of these works offered us tactics for inquiring into a context for an emergent technology such as E/ST that considers the complex, often-fraught sociopolitical factors that make sustainability such a wicked problem. 
+
+Where design justice enriches speculative design's framework is at the originating point of %and Stuart Candy 
+the ``possibility cone" or ``futures cone" from Dunne \& Raby and Stuart Candy, located in the present. Applying a lens of intersectional justice shows us that there is not simply one singular way to experience the present due to multiple axes of systemic oppression, placing individuals at different coordinates along race, gender, class, etc. To complicate the present, and foreground social justice (of which sustainability is a critical part), Costanza-Chock's elaboration of \textit{design justice} \cite{costanza-chock_design_2020} describes a \citedterm{matrix of domination} that selects for more socially privileged design perspectives, separating design sites into the \textit{privileged} (e.g. Silicon Valley, university hackathons) and the \textit{subaltern} (e.g. auto shops, weaving studios). We believe that design justice magnifies the present point so that it no longer appears to be a singularity. Instead, it is now a debris field of alternate histories and possibilities truncated by past violence.
+% , illustrated in Fig. \ref{fig:justice-futures-cone}. 
+Broadening the speculative cone allows us to look beyond success stories to uncover more humble points of pride, as well as frustration, and failure -- thus expanding our sense of possible futures. Furthermore, design justice's core strategy of \textit{retooling} -- designing tools that dismantle the established matrix of domination and construct a new, justice-oriented sociotechnical order -- offers a framework for designing these tools as components for building further speculation, hence the ``construction" descriptor for our analysis.
+
+
+
+% can you say something here about what the difference between speculation and design recommendations? 
+
+
+% sw - what I learned from making this graphic is that sometimes, making a graphic can help me write a section, even if the graphic doesn't make it into the final paper
+
+% combine with submerged perspectives (Decolonial Perspectives) and subaltern design sites (Design Justice) -- adding in justice as a metric for "preferability" of a future
+
+
+\section{Study Design: Three Aspects of E/ST Practice}
+
+As E/ST practitioners ourselves studying practices in our own network, this study was designed for the authors' two interrelated purposes: to inform product development for a growing E/ST market, and to survey implicit design values within the discipline, such as manufacturability and sustainability. Both goals concern the future of E/ST as it ``scales" as a technology and social practice. While the study's data collection did not specifically target sustainability as a design value, the research question that emerged to guide our analysis and reflections can be summarized as follows.
+
+% indent
+\begin{framed}
+\noindent
+\textbf{How can sustainability manifest in material, implicit ways for E/ST practitioners, including those whose careers do not explicitly focus on sustainability and those who are not necessarily researchers on the topic? What could \textit{doing sustainability} look like for the future of E/ST?}  
+\end{framed}  
+
+In this section, we will describe these methods in a chronological narrative of our research process. To preserve confidentiality (especially in ensuring honest product feedback), all participant data was anonymized by the principal investigator, A1, and given pseudonyms for dissemination.
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=2.5in]{figures/Assembling Seams FIGURES-Study Design.png}
+%     \caption{A study design targeting three distinct components of E/ST practice: language, prototyping, and manufacturing. The graphic shows the components as completely separate entities merely for clarity. The components represent distinct, but possibly overlapping and entangled aspects which E/ST practitioners encounter.}
+%     \label{fig:study-design}
+% \end{figure}
+Our study was divided into three segments, each targeting a component of E/ST practice to investigate for existing sustainability dialogue and thinking, along with potential development. These segments were (1) \textbf{language} used by practitioners to describe the E/ST domain, (2) practices in \textbf{prototyping} future E/ST technologies, and (3) perspectives on future E/ST \textbf{manufacturing} at scale.
+We acknowledge that, by drawing on design justice and sampling within our existing networks, our methods situate our collected data and analyses within our own subjectivities as researchers. As such, our \textit{speculative construction} as developed through the findings and discussion is limited to our specific E/ST community of practice, rather than the multifaceted discipline at large.
+% However, as our research questions sought possibilities rather than generalizable
+
+\subsection{Language}
+
+The language segment of our study was designed to probe how E/ST could identify as a field (i.e. ``e-textiles" vs. ``smart textiles") and to see if differences in the choice of these terms suggested particular sustainable values.
+We chose to conduct an \textit{online survey} as our main data collection method in this segment to obtain a `wide-angle lens` of a domain that may be under-studied or new \cite{braun_online_2020}.  
+%In cultural anthropology, surveys can be used to quickly establish connections with a participant community \cite{bernard_handbook_2014}, which is similar to ``agile" user experience (UX) design's use of surveys to quickly obtain market research or audience feedback while simultaneously building a customer base \cite{buley_user_2013}. 
+
+In designing the E/ST language survey, we were particularly inspired by the popularity of a language survey
+in the New York Times (NYT) \cite{katz_how_2013} that targeted USA regional dialects. Not only was the ``dialect quiz" the most popular content that NYT published that year, but the quiz sparked lively discussion on- and offline among Americans who were not previously aware of dialect differences, bringing an analysis of subtle cultural differences to a general audience. Our language survey borrowed elements of the quiz by first asking participants brief questions, answerable with one or a few clicks, on language preferences between terms like 'e-textiles', 'smart textiles', 'functional fabrics', or 'stretchable electronics'.
+% \begin{itemize}
+% \item E-textiles
+% \item Smart textiles
+% \item Functional fabrics
+% \item Soft circuits
+% \item Flexible circuits/devices
+% \item FHE (Flexible Hybrid Electronics)
+% \item Stretchable electronics
+% \end{itemize}
+We selected these terms from literature reviews and industry communications which the authors had encountered, with terms being trimmed from the list for redundancy if they already shared some combination of keywords (e.g. ``smart fabrics" was not included). We were careful not to include any terms that spoke to more specific integrations within the E/ST domain, such as "smart garments" which only refer to certain on-body applications of E/ST.
+% In this same section of the survey, we asked participants to self-identify the follow demographic information:
+% \begin{itemize}
+% \item age bracket (10 year intervals)
+% \item gender (in a text box)
+% )
+% \item number of years in E/ST
+% \item current job title
+% \item best category for their role (choices: engineer, creative technologist, artist/craftsperson, and "other" write-in option)
+% \end{itemize}
+% The age and gender fields were formatted to be inclusive, yet compatible with coding during analysis \cite{fonseca_designing_2020, couper_web_2001}. As an aside, we decided not to include race in the questions because % REASONS
+% A1 and A2, as BIPOC (Black/Indigenous/People of Color) technologists working in mixed spaces where discussing issues of diversity, equity, and inclusion was not guaranteed as welcome, were personally not ready to navigate the topic in an industry context.
+After this first section of quick and intuitive responses, the survey participants had an option to continue onto more questions like asking respondents to explain any language differences they wanted to qualify from the first set of questions, and what (if any) differences they saw between E/ST and "flexible" or "wearable" device development. Additionally, we prompted participants to share ideas they held about the ideal qualities of future E/ST items, as well as what E/ST applications they hoped to see.
+
+%\subsubsection{Distribution and Preliminary Analysis}
+
+The language survey was an anonymous Google form which was distributed most notably to Flexsu's public mailing list. A2 noted that the company had over 10,000 subscribers on the list in May 2020, and sent content such as updates on the company's technology, new collaborations, and recent publicity.
+% However, Flexsu had not tracked what portion of these subscribers were actively reading or engaging, so there is no way to gauge the response rate to the survey. Because we were using Flexsu's communication channels, where A2 more commonly used the term ``e-textiles", the survey title and follow-up communications also used this language.
+We aggregated the multiple-choice responses and demographics data to create quantitative charts. Qualitatively, our analysis was done through open coding \cite{denzin_sage_2005}, using the text responses starting with the questions as initial structural codes (e.g. desired features and preferred terms) that could then be analyzed for values-based themes. To supplement our analysis and following our NYT inspiration in provoking community discussion on language, we collected this preliminary analysis to present back to the respondents in a Zoom webinar. We called the event an "E-Textiles Town Hall", making the presentation short and generally accessible, and devoting half of the 45 minute scheduled time for questions or comments from the attendees. We recorded and transcribed the event, coding it with the survey responses. % how did we code the transcripts
+
+\subsection{Prototyping}
+% After concluding the language segment, we moved onto the prototyping segment. This sequencing was purely pragmatic, as the user test involved Flexsu sending sample products to the participants and the company needed the lead time to produce enough inventory. To study E/ST prototyping, we leveraged Flexsu's "beta test" framing of the pre-release user test of their product line. 
+
+In studying prototyping practices, we aimed to assess the values (which may or may not include sustainability) that E/ST practitioners brought into their prototypes and ideas of future technologies.
+We drew upon established user testing methods in human-centered design for products \cite{shneiderman_designing_2016, buley_user_2013} such as usability metrics and application-specific heuristics. %However, we combined these conventions with tactics from speculative design \cite{dunne_speculative_2013} and critical technical practice \cite{agre_toward_1997}, which deconstruct notions of ``usability" and ``product value" in order to probe beyond designing for a consumer product, into a design's sociotechnical context and its relationships with human agents. 
+We used these methods to jointly evaluate Flexsu's product line (Fig. \ref{fig:prototyping-components}), which included pressure sensors, digital press buttons, heating elements, and various connectors, all based on a flexible substrate that could conform to a soft textile surface, and probe the participants' ideas for possible applications. Each beta tester received two different components from Flexsu, which would allow them to evaluate Flexsu's technology in two differing form factors and/or functions. 
+% With two components, the participants would also be able to evaluate the connection techniques designed for the components. 
+Data on the beta testers' experiences and from their direct feedback were collected in one round of introductory interviews, a 3-week period of remote, asynchronous observation by the authors, and a second round of exit interviews.  During the interviews, we used tactics from reflective design \cite{sengers_reflective_2005} and cultural probes \cite{boehner_how_2007} to prompt participants to deconstruct notions of ``usability" and ``product value" in order to probe beyond designing for a consumer product, into a design's sociotechnical context and its relationships with human agents. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=3in]{figures/400x150.jpg}
+    \caption{Flexsu's product line of prototyping components. [image omitted for review]}
+    \label{fig:prototyping-components}
+\end{figure}
+
+During the remote observation period, A1 gathered additional data through interacting with the participants in Slack and video calls in which they helped participants troubleshoot the components, gathering image/video documentation of their prototyping process.
+All of the participant data was transcribed (or captured/downloaded for messages and multimedia), anonymized to preserve the confidentiality of the participants, then shared amongst all of the authors to review. We performed a thematic analysis of this qualitative data, identifying shared and differing aspects of participants' experiences within each study group, as well as comparing themes across the study segments. In the parlance of Braun \& Clarke's method for thematic analysis, we paid especially close attention to the ``latent" themes (what the participants \textit{meant} in the data or \textit{why} they said it) that underlaid the ``semantic" themes in the data (\textit{what} the participants said) \cite{braun_using_2006, maguire_doing_2017}. To address the RQ, we investigated whether or not ``sustainability" was among the latent themes observed.
+
+% \subsubsection{Recruitment and Introductory Interviews}
+
+% Prior to our collaboration, Flexsu had sent preliminary interest surveys to their subscribers to gauge potential customer interest in certain types of components (e.g. pressure sensors, connector buses, heaters), and to solicit potential participants in a user test. Based on these communications, A2 had identified a list of contacts who were consistently responsive and openly provided feedback. A1 recruited the beta testers from this list, keeping the final list of nine participants and their feedback anonymous to A2.
+
+% Once each participant had received their components from Flexsu, A1 scheduled the first interview with them in a Zoom video call. The unstructured format of the introductory interviews allowed the meeting to progress much like an initial meeting between new colleagues. A1's questions about the participants' individual work and what interests brought them into their current position. Moving into the present context of the study, participants were asked how they found out about Flexsu, and what ideas they had for the components that they would be testing. Overall, these questions sought to generate a sense of the participants' interdisciplinary trajectories, grounded in their personal stories. The hope was also to use this first conversation to establish that A1 was interested in maintaining contact throughout the beta test period, as well as a collaborative relationship as fellow E/ST practitioners continuing beyond the study, if they so desired.
+
+% \subsubsection{Follow-up: Participant Observation, Exit Interviews, and Beyond}
+
+% The introductory interviews also served as orientations for the participant observation stage, gauging each participant's interest and capacity for additional interactions with A1 or the other participants. To scaffold the participants' experimentation with the Flexsu components, the authors provided written design prompts and technical documentation. Additionally, when recruiting for the beta test, A1 had offered personalized ``help time" for the beta testers as an informal incentive, where they would be available to meet virtually for electronics tutorials or project consultations. After more than half of the participants indicated interest in some form of group communication to meet each other and suggested the platform, A1 also created a Slack workspace for the beta testers. 
+% Then I sat back and hoped that they would actually use the components over a couple of weeks. 
+% The prompts were written from my experience with conventional UX design thinking, trying to slip in some more critical design and cultural probes. 
+% Didn't get a whole lot of engagement in Slack, but a couple of interesting questions, documentation of their experimentation process, and one participant used the "help time".
+% Everone was super busy so there were only four exit interviews (one from someone who missed their intro). There were two people who were product design focused, one who was definitely academic, one who was in product design but was more focused on her personal learning
+% At end of the three week remote observation period, A1 reached back out to the participants to schedule an optional exit interview which would include more formal product evaluation questions. 
+% Interestingly, one participant who couldn't make an exit interview did so because he was going to a big protest, which went along with his intro interview mentioning how he had trouble making sure his political activism was compatible with working as a maker.
+% After the beta test was formally over, I kept in touch with most of the participants because again, they were cool.
+
+\subsection{Manufacturing}
+
+Finally, in the Manufacturing segment we sought a deeper understanding of the existing landscape for E/ST manufacturing, as a combination of electronics and textiles manufacturing sectors. How is sustainability considered in this landscape, and what are the barriers that impede sustainable E/ST development (or scaling E/ST technologies in general)? We recruited ``manufacturing experts" for this segment, keeping our criteria for an ``expert" intentionally flexible due to the lack of E/ST products that have gone to mainstream markets. Participants were recruited based on our familiarity with their work in E/ST and manufacturing, as well as the diversity of opinions and perspectives they might bring to our speculations for future E/ST sustainability.
+% The final segment of our study was initiated during the Participant Observation stage of the Prototyping segment, as we used the lull in facilitating direct interactions with participants to recruit participants for a set of interviews about E/ST manufacturing. 
+
+We conducted this segment using unstructured interviews to keep the conversational space open to each interviewees' unique experiences. A1 conducted these interviews as one-on-one video calls where the primary goal was to engage the interviewee in a casual, but in-depth conversation where they felt comfortable in reflecting on their personal motivations in their work. This approach borrows from unstructured qualitative interviewing in cultural anthropology, which are often used in conjunction with ethnographic fieldwork to develop an empathetic understanding between the researcher and participant \cite{fontana_interviewing_2007, gburgess_unstructured_1982}. More recent anthropological work from practitioners with marginalized experiences expands upon these methods to challenge disciplinary power inequities, such as Kim TallBear's feminist, Indigenous approaches to inquiry of ``standing with" and ``speaking as faith" \cite{tallbear_standing_2014} to attend to differences in privilege and analyze power dynamics between researcher and participant. 
+The goal of the manufacturing interviews was not to generate into a representative model of the manufacturing ``landscape" in a structured, systematic fashion. Rather, this dialogic, associative procedure was used to generate a set of unique perspectives with a few interviews and limited time. Together with critical activist scholarship in social research, this conversational method was well-suited for drawing out systemic factors in the participants' stories.
+
+% don't discuss submerged perspectives and design justice yet, just considering those as part of futuring/alternate past-presents
+
+\section{Findings: the Centrality of Relationships}
+
+We summarize our findings through the lens of the study's central finding and recurring theme:
+% Overall, our study is inconclusive on whether sustainability has a significant presence within the values of E/ST practice, but does suggest which values may be currently emphasized. 
+how forming and maintaining personal relationships was a common strategy for participants to meet challenges such as disciplinary boundaries, access to specialized spaces, and gaps in expertise. While we are unable to draw a conclusion on whether sustainability has a significant role within E/ST design values, this key finding about relationships has fueled our reflections on similar themes found in other discourses, many of which are overtly focused on sustainability. 
+
+Each of the three aspects of E/ST practice we observed -- language, prototyping, and manufacturing -- represented different influences on the nature of these collaborative relationships. How interpersonal relationships drive human goals is a topic of study in many fields, from scientific and technological development \cite{rifat_breaking_2019, steinhardt_breaking_2016, maudet_design_2017, zhang_designing_2019} 
+to political movements \cite{hobart_radical_2020, sze_environmental_2020, mcalevey_no_2016}, comprising an important vehicle by which humans construct and arrange societal values. 
+We see this value of relationships, observed in our conversations among E/ST practitioners, as a promising foundation for a community of practice that actively engages with issues of sustainability, material impact, and other social issues as part of E/ST design. In the following section, we will discuss the specific findings from each segment to situate the speculative construction in our discussion. 
+
+%These connections are made as \textit{speculations}, grounded in our \textit{observations} from interacting with study participants, forming what we will call a \textbf{\textit{speculative construction}} of our local E/ST community of practice. Leaning into the various meanings of `construction' in HCI, we will employ a metaphor of designing and building a house to present how interpersonal relationships factored into each component of the E/ST ``house".
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=3in]{figures/Assembling Seams FIGURES-Findings.png}
+%     \caption{Conceptual illustration of a \textit{speculative construction} for an E/ST practice built explicitly upon valuing relationships between practitioners. The three components of practice from Fig. \ref{fig:study-design} have been used to suggest three configurations of social relationships: coalitions, spaces, and infrastructures.}
+%     \label{fig:findings-specConstruction}
+% \end{figure}
+
+\subsection{Language: No Unified Term and a Range of Value Alignments}
+The complete dataset from the Language segment consisted of 65 survey responses, along with the audio recording, text chat logs, and anonymized transcript of the E-Textiles Town Hall. 
+% % section intro/overview
+% The language survey ultimately probed the question: who counts as an E/ST developer? What does the E/ST house encompass, and who's in here for us to talk to about sustainability? In analyzing what factors influenced different names for the field -- ``e-textile", ``smart textile", ``flexible hybrid electronics", etc. -- we asked: does sustainability influence conceptions of these terms? What are the features of an E/ST professional identity?
+The language survey, along with the town hall discussion which we hosted, solicited a variety of opinions on what constituted E/ST practice, as well as what were the desired future technologies from the field. As the walls and furnishings of a building shape the occupants' relationships with each room, the language used to describe E/ST shaped and reflected the respondents' relationships with the technological domain.
+% Overall, the 65 participants showed thoughtful engagement with the survey and reflection on their own language use, considering that there was no material incentive for participation. In their text comments, several participants reacted to the questions with, "Interesting!" or said that they "really hope" for some particular change in how E/ST was progressing. 
+Over half of the respondents (n=35) chose to continue to the optional questions, and each person's total word count from the optional text response questions averaged 122 words, with the longest response exceeding 400 words. 
+% Among these signs of investment in the values of E/ST, sustainability was only tangentially mentioned a handful of times, such as identifying "recyclability" when asked about the desired features or qualities of future E/ST products. Responses about personal comfort (``soft", ``not scratchy") and convenience (``washability"), as well as associations with consumer devices (``health trackers", ``Internet of Things") were overwhelmingly more common.
+
+Importantly for investigating relationships and professional identity within E/ST, the language survey let us scrutinize the main disagreement we have danced around this paper thus far: is it "e-textile" or "smart textile"? The answers were conflicted. Several participants especially noted a difference in how they perceived "e-" versus "smart" as a prefix. One associated "e-" with "e-waste", which seemed to contaminate the term "e-textiles". They preferred "smart textiles", as the prefix "smart" was shared with phrases such as "smart homes" and "smart cars". Presumably, this person hoped for positive things from the E/ST field and thus wanted a term for the field without negative associations. On a different ideological note, some participants argued that "e-textiles" was better because "smart" was too ambiguous of a label. One respondent tersely stated that "every textile is smart in a way", so the term had an "empty meaning". Another pointed to a similar selection of "smart [device]" terms, making the label seem "gimmicky" to them. 
+
+Comments on the other terms -- "functional fabrics", "soft circuits", "flexible [circuits/devices/hybrid electronics]" -- focused on how these terms suggested specific features or characteristics of things being built under the E/ST banner. Descriptors such as "flexible" and "stretchable" only covered a single characteristic, which might not be the priority in all prototypes or products. However, even words based on tangible components of E/ST were up for debate, such as "circuits", "fabric", or "textile" as these all denote design paradigms, fabrication processes, and materials tied to specific technical domains such as electrical engineering or textiles manufacturing. We see that a proper name for the field must capture both the observable features of the desired technological developments, as well as the subjective hopes and speculative visions for the technology. As an emergent concept, E/ST is already broadly defined, and such a proper name would also be broad. However, the term must also simultaneously be specific enough to set the field apart from others.
+
+% In giving opinions on what \textit{is} E/ST and what is \textit{not}, we also asked participants on what they perceived to be the degree of overlap between E/ST and ``wearable and flexible devices". One participant was seemed surprised at their lack of association between the concepts, answering, "Not necessarily and I wonder why. I think there has been such a fashion push in the media that people aren’t thinking about the applications [Flexsu] is interested in- like industrial workers, car seats..." The inability of some participants to unite some concepts with E/ST, while still others were unable to clearly distinguish the field from related technologies, speaks to an undefined E/ST group identity. 
+
+However, one potential site of consensus was around the term ``creative technologist" for an E/ST practitioner. In selecting the category of their career, 30.7\% of participants(n=20) best described their practice as such, making it the most common response. The second-most common response was ``engineer" with 24.6\% of participants (n=16). Upon examining the creative technologists' responses to their specific job title, their roles ranged from ``start-up manager" to ``maker/programmer" to ``marketing director" to ``textile engineer", suggesting that the identity ``creative technologist" resonates with a wide variety of practices within E/ST. Ultimately, these definitional tactics for drawing the boundaries of E/ST influence the relationships of E/ST practitioners with \textit{each other}. In understanding how language indicates and transmits E/ST's disciplinary values, we can begin thinking of tactics that speak to both E/ST and sustainability.
+
+\subsection{Prototyping: Materials First, Sustainability (and Other Values) Later}
+The data from the Prototyping segment consisted of audio recordings of all interviews: 8 introductory interviews and 4 exit interviews, totalling 12 hours of interviews with nine participants. Roughly separating the beta testers by their primary interest in participating, we studied a mix of people interested in learning basic electronics for hands-on professional development (n=2), design research inquiry (n=2), exploring technical challenges (n=2), and designing consumer products (n=3).
+Beginning from the introductory interviews of the prototyping segment, we saw a recurring theme of movement into and within E/ST in the participants' career trajectories. 
+%It was though, if E/ST was a house, they headed towards upon entry, what helped make them comfortable, or what made the space intimidating.
+Beyond learning how to work with a new material or even a new application or tool, many participants were challenged with a whole new domain of knowledge. For example, Sydney and Gary were experienced product designers for a particular domain (textiles and workplace ergonomics, respectively), but neither had ever designed electronic devices. This element of getting acquainted with a new field was reflected across other introductory interviews. Participants shared what about the E/ST field had piqued their interest in coming over from another field, such as those who dealt with product design -- who saw E/ST as an upcoming trend that would be applied to the markets they worked in: home furnishings (Dorian), acoustics (Xander), educational tools (Eli), and wearable devices (Jack).
+
+In summary, these interviews presented E/ST as a space of possibility for career development and creative experimentation. Yet, as participants described their design ideas, from heated therapy cushions to gesture-sensing fabrics, sustainability did not seem to factor into their thought process. The participants were amenable to thinking about sustainability when A1 mentioned their own design values, and would share their thoughts freely. However, their responses to sustainability (as well as broader issues of equity) as factors in their design process suggested that it, along with cost, scalability, and aesthetic theme, were considerations for the ``next version" (Dorian) of the prototype. The exit interviews, which revealed that many of the participants had not even gotten to physically work with the components because they needed to obtain a soldering iron or first decide on a project concept, suggested that the foremost values in the early stages of prototyping are product viability and technical feasibility. 
+
+We imagine that sustainability and other values can be relegated to secondary or incidental factors when material considerations, such as soldering a connection or measuring pressure sensitivity, are immediately tangible and visible to the designer. Even Odette, who teaches E/ST concepts and researches critical values in fashion technology design, connected sustainable E/ST to ``triple bottom-line economics" and other theoretical, abstract concepts, rather than her immediate prototyping concept. The focus on prototyping and learning may have allowed participants to "bracket off" concerns for broader distribution, where sustainability might be more foregrounded. Additionally, the products with which they engaged did not have specific aesthetics or branding focusing on sustainable design (such as the use of natural materials or "green" branding). We see a possible space to question where sustainability could be a more explicit value in a design process. For one, the aesthetics of a prototyping tool might suggest different possible applications for such tools. Also, returning to our theme of relationships in shaping E/ST practice, the participants' personal relationships generated their first project ideas (e.g. designing for a pet or to aid a loved one's health struggle) and guided them to enter E/ST in the first place. Hector and Sydney, both senior professionals in their fields, cited wanting to ``keep up" with A2's work as reason for exploring E/ST applications.
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=3in]{figures/Assembling Seams FIGURES-Beta Test.png}
+%     \caption{Roster of all nine beta test participants, formatted as ``business cards" that associate each participant with their pseudonym, job description, and development focus.}
+%     \label{fig:beta-test-roster}
+% \end{figure}
+
+
+% The two interested primarily in professional development were Sydney and Eli. Sydney is a professional textile designer working at a multinational textiles manufacturing and distribution company. Over her career, she has advanced from designing products to directing product innovation in her current position. Sydney has been in touch with A2 and Flexsu for some time, following the growing potential of E/ST entering her work in textiles manufacturing.
+% Eli is an educational technology % ed-tech?
+% developer who taught himself programming while working in consumer electronics retail, then moved into development at start-ups in maker-oriented and educational products (e.g. 3D printers). 
+
+% Both design researchers were also the only two beta testers working in academia: Ian and Odette. Ian is a researcher in HCI interested in wearable and textile computing applications for artistic, expressive, and embodied interactions, who took a particular interest in the pressure-sensing matrices. 
+
+% The first beta tester that I met with was Hector, a veteran engineer with experience in mechanical engineering, electrical engineering, consulting, and even art over the past two decades. Having followed new areas of innovations for so long, his recent work had taken a turn towards textile and wearable applications. 
+
+% Lastly, comprising the product design set was Gary, Xander, and Dorian, who were product designers in different domains: workplace ergonomics, industrial and architectural design, and home textiles, respectively. Dorian was the only beta tester not in the USA, located in Germany. 
+
+% Of note is the fact that all of the beta testers, except for Jack, were older than A1.
+% we saw the beta testers bring different values for their process, like product design, personal learning, and design research.
+% In the beta testing process, we were able to directly observe the participants learn how to design with a novel component. However, beyond learning how to work with a new material or even a new application or tool, many participants were challenged with a whole new domain of knowledge. For example, Sydney and Gary were experienced product designers for a particular domain (textiles and workplace ergonomics, respectively), but neither had ever designed electronic devices. This element of getting acquainted with a new field was reflected across other introductory interviews. Participants shared what about the E/ST field had piqued their interest in coming over from another field. % TODO find quotes
+% Most of the professional product designers -- Sydney, Gary, Eli, Xander, Dorian, and Jack -- saw E/ST as an upcoming trend that would be applied to the markets they worked in, such as home furnishings (Dorian), acoustics (Xander), educational tools (Eli), and wearable devices (Jack).
+% Jack and Hector -- more engineering-focused, while Jack was closer to the application side, but both saw E/ST as a source of technical challenges which was more interesting to them than end-use applications
+% A1 brought in my own values too, which is how sustainability and equity was a part of the space, but it didn't really seem like other people were bringing those in as their goals
+% prototyping felt like a very free space for exploration and experimentation, maybe a little too intimidating for some people.
+% what are some of those scary things? how can tools and kits make them better?
+
+% TODO: connect sustainability, not explicit or really present in "latent" themes, but personal relationships is a potential "in" with sensitive or new topics
+
+
+\subsection{Manufacturing: A Template For Relationships and Gatekeeping Under Constraints}
+Lastly, the Manufacturing segment's data consisted of 7 interview recordings and transcripts (one of which was with A2). 
+% As Mars said, the manufacturing interviews were like interviews about how people didn't like manufacturing. It's like a template that products have to try to fit themselves in
+Our sense of the landscape of E/ST manufacturing is one where designers, production workers, and even factory management are disempowered in forming their desired relationships to further their goals for sustainability. It was as if manufacturing paradigms imposed a "template" that one has to fit in order to successfully manufacture in E/ST, leaving little room to consider sustainability in that process. Kent, a designer and academic researcher in fashion technology, had worked in both high-street fashion and research labs and was familiar with supply chains in both textiles and consumer electronics. The template has been strict and merciless with his designs: through trial and error, with emphasis on \textit{error}, he had "one thing out of twenty years make it to market" during his career in fashion. For Bridget, a textile designer who had started at a large sportswear company in research and development (R\&D), sustainability was about conforming to regulations. Bridget described how her workplace's sustainability measures were largely facilitated by a ``directory" of expert personnel who specifically handled regulatory compliance and legal matters. As a production sewist, Mars felt that manufacturing removed the social value embodied in small scale hand work. They observed how garments were designed to be ``operationalized" into discrete stages, reducing possible inconsistencies between workers but also removing the ``weird nitty gritty details" of experimentation which they so enjoyed about craft work. Normative values and established practices often got in the way of the participants' ideas of sustainability and social good.  However, press was one factor that helped ease these burdens. A2 described how Flexsu had gotten "a lot of press", which caught the attention of their current manufacturer, who initiated the collaboration. Without this interest, they would have had to convince the manufacturer to "have some sort of faith" in the potential product. 
+
+Another start-up leader also suggested that success or failure for their start-ups was strongly determined by external agents such as manufacturing and supply chain executives, who served as gatekeepers. Rikki, an early-career engineer who was developing a textile recycling start-up, saw opportunities for reducing the environmental impacts of textiles manufacturing, while introducing changes that could enable larger-scale restructuring in the industry. Despite the environmental and financial benefits, and the technical feasibility of her work, the most challenging aspect of industrial-scale production for Rikki was engineering a network of human contacts that would support the start-up. In actively navigating existing manufacturing ecosystems, both A2's and Rikki's organizations struggled with achieving a production volume that would sway potential manufacturers. Furthermore, most small companies cannot afford specialized personnel to handle the details (e.g. quantifiable emissions, non-use of certain materials) for desirable certifications. However, A2 pointed out that factories need to consider their ``tooling costs" when adapting for new product, leading them to impose gatekeeping criteria (e.g. quantity) in order to meet their own needs. We observed that gatekeeping could arise as a response to one's own external constraints, creating the need to know the "right people" and leading entrepreneurs to wonder, "How do I convince the [purchaser for the manufacturer/lead designer/some innovation lead] to invest in my idea?" Generally, the more powerful ``big players" with the regulatory or social capital to promote sustainable development have little incentive to initiate progressive relationships, entrenched as they are by legal and financial privilege.
+
+However, the instances of sustainable enterprises that succeed or at least persist, e.g. Lenzing as cited by Rikki and heritage artisans as cited by Kent, suggest that working outside of the manufacturing template is not totally impossible.
+With his knowledge of different product supply chains, Kent identified aspects of present-day manufacturing processes which are already shifting. He pointed to the trade-offs which the semiconductor industry has made in order to achieve its scale in volume and uniformity: materials are sourced from every inhabited continent and shipped to hyper-specialized nodes in the supply chain (a handful of foundries across the globe produce integrated chips). The rise of alternate manufacturing models such as Industry 4.0 and community-based tabletop manufacturing \cite{machado_sustainable_2020, kohtala_making_2017} is already challenging this paradigm and redistributing infrastructure. For Anais, the director of a fashion tech start-up in Europe that combines design, prototyping, and small-scale manufacturing, the response was to bring different parts of the design cycle under one roof. For Anais, change needed to actively consider scale--she expressed that "a prototype isn't enough" for making social impact, especially for a wicked problem such as sustainable development, and one needed to create a middle space where the "scaling" between prototype and product was itself an area of inquiry. Others looked to other, complementary modes of engagement, as a means of making impact. For instance, Freia, a university professor, shared that her work in hardware development had fundamentally been about "getting out into the real world". Her current community-based work also effected social change through technology and design, but felt more "exciting" and critically engaged than "manufacturing and distributing hardware". In pushing against the limits of the manufacturing template and finding it to be "not enough" for achieving the systemic change they desired, the manufacturing interviewees were already offering their own speculations for alternative systems. 
+% She noted that, working directly with communities whose traditional artisan craft practices have persisted despite the proliferation of mechanized, industrialized commodity production, modern textiles have an especially long history of privileging very select practices and marginalizing the rest.
+% The most commonly cited cause of failure for a manufacturing project was the failure to establish relationships with the correct people. As we will discuss in the findings, the structures that obstructed these relationships also obstruct the participants' efforts in sustainable development.
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=3in]{figures/Assembling Seams FIGURES-Manufacturing.png}
+%     \caption{Business card roster of all seven manufacturing interviewees. [A2 anonymized for submission]}
+%     \label{fig:manufacturing-roster}
+% \end{figure}
+% SUMMARY
+We observed this ``manufacturing" template, as an existing barrier for electronics and textiles development, is an even greater barrier to \textit{sustainable} E/ST development. Our ``relationships" theme not only manifests as a common tactic for navigating the present landscape of manufacturing, but also as a concept for philosophical speculation: how can we practice relationships differently to re-envision ``manufacturing" for sustainability? 
+% In total, the study collected roughly 22 hours of participant engagement through interviews or other real-time interactions over five weeks during the summer of 2020.
+
+\section{Discussion: Retooling for Sustainable E/ST}
+While we did not observe that sustainability has an overt presence in E/ST language, prototyping, and manufacturing practices, our participants certainly valued relationships as part of E/ST practice: as a means of bringing and transmitting values such as sustainability, and also as a philosophical component of a sustainability mindset. From these observations of potential E/ST compatibility with sustainable development, we present our discussion as a %we employ our tactic of 
+\keyterm{speculative construction} for doing sustainability within E/ST's community of practice, drawing out implicit disciplinary values into explicit material engagement. 
+
+We believe that framing the discussion as a speculative set of concepts, rather than a list of questions, immediate design lessons, or even a fully-developed speculation, helps us refer back to Costanza-Chock's main recommendation for design justice: \textit{retooling}. As examples of a retooling agenda for justice-oriented AI, Costanza-Chock names developing ``intersectional user stories, testing approaches, training data, ... among many other tools" \cite{costanza-chock_design_2020} that counter and dismantle the normative tools provided by the matrix of domination. A speculative construction helps us develop a similar agenda for sustainable E/ST by identifying specific components of a possible practice. In Fig. \ref{fig:spec-visioning}, we illustrate how we see these speculative components arise from the existing components in the Findings section. We recognize the tension between the imaginary, sometimes absurd nature of speculation and the concrete action that social justice demands. To reckon with this tension, we took inspiration from similarly speculative aspects of visions for justice-oriented preferable futures, orienting our speculations towards possible outcomes of collective action movements that we might begin in the present. We particularly looked to Ghoshal et al.'s work on information \& communication technology (ICT) practices in grassroots organizing spaces \cite{ghoshal_toward_2020}, which suggests a possible synthesis of ICT development and grassroots social justice practices. Following these voices, we propose a general ethos for sustainable E/ST design practices, which we will develop further in this section: \textbf{"Build relationships first, then tools."} 
+Our speculation, then, envisions retooled aspects of E/ST development that leverage related threads in HCI. 
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{figures/Assembling Seams FIGURES-Discussion.png}
+    \caption{%\todo[labels in pic?]{} 
+    A conceptual map of the progression of ideas in the Study Design, Findings, and Discussion sections. We identified three aspects of E/ST practice (left) to study. Our observations of such (middle) revealed a central theme of relationships. Reflecting on our findings, we used ``relationships" as a core value of a \textit{speculative construction} (right) of sustainable E/ST design, envisioning how current aspects of practice may be retooled to foreground sustainability through relationship-building.}
+    \label{fig:spec-visioning}
+\end{figure}
+
+In the following speculative scenes, our vision of \keyterm{retooling for sustainable E/ST} implements the theme of ``relationships" as \textit{interconnections} -- whether between humans, non-human lives, devices, or systems -- and explicitly integrate sustainability to form tools in a future ecosystem for sustainable E/ST. These tools address an observed need in our E/ST community of practice, while also advancing a broader cause in a global context. Our story begins with the ``us" assembled through the study: the authors, the E-Textiles Town Hall participants, the beta testers, and the manufacturing experts. We ask, ``What if?" What if we keep these conversations going? What if we formed a sustainable E/ST coalition to demand manufacturing change? Thus, the first design tool arising from considering relationships in the practice is not software or hardware, but rather a social configuration. From this beginning, we describe scenes set around a sustainable E/ST ``workbench" being outfitted with this speculative toolset, suggesting the social and technical formations that emerge. We will regularly look to political organizing and social justice activism to speculate on how these visions can inform actions in the present, empowering people to orient themselves towards a longer-term ideal that is beyond the more urgent, and often bleak-seeming, present.  
+
+  % say something of how that factors in here - maybe that speculation allows us to orient towards a longer term, perhaps idealistic goal, rather than focusing on the more immediate, and somewhat hopeless, present. 
+% To organize our observations into suitable grounds for speculation, we looked to two concepts which have significant bodies of literature. (1) Our observations took place within our \textit{community of practice} of E/ST, situating our study in our own networks and positionalities \cite{wenger_communities_1999, barton_beyond_2005}. (2) We assumed a constructivist stance aligned with the \textit{social construction of technology} -- that materials, technological, and social realities are all inextricably linked and shape one another, rather than one deterministically causing another (e.g. technology dictating social practices). A constructivist stance lends itself to asking ``normative questions" about existing power structures and the political status quo \cite{bijker_social_2012} in order to distinguish the non-normative alternatives. 
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=2.5in]{figures/Assembling Seams FIGURES-Opportunities.png}
+%     \caption{A speculative relationship-based toolset for doing sustainable E/ST development for a community of practice.}
+%     \label{fig:opportunities}
+% \end{figure}
+% As designers, we want to go back to making things, so here's some opportunities for further study and development, AND to discuss sustainability explicitly in the field
+
+\subsection{Tool 1: We Form a Coalition for Sustainable E/ST}
+As in community organizing, we start with ourselves and the people around us, where we are most able to build a base of power.
+% } -- a factory worker from China, a PhD student from North America, an e-waste recycler from Ghana, a European textile artist, an Indigenous Brazilian hardware hacker, and many others\footnotemark --
+ In order to stock the workbench with sustainability tools that also dismantle the unequal privileges between us, we form a \textit{coalition} -- 
+% \footnotetext{These individuals are hypothetical, but based on studies of E/ST, ICT, and HCI practices \cite{ lindtner_reconstituting_2016, carlson_ewaste-worker_2016, renno_activism_nodate, fairburn_spheres_2016} in different regions and disciplines.}
+an association formed between groups with different identities, but shared goals. 
+These groups may share a bigger umbrella identity (often emerging from the coalition itself), but the group identities are distinct under aggregation. 
+
+Our Manufacturing participants shared with us a sense of disempowerment as the "small" players in a field of enormous corporate entities that upheld the unsustainable manufacturing status quo, and they are hardly alone. Coalitions for sustainability are emerging globally as a strategy for building enough collective power in grassroots movements to effect institutional and legislative change \cite{noauthor_movement_nodate, hess_sustainability_2014}. We looked to examples of successful (and failed) political coalition efforts in modern history to see that forming and sustaining these social configurations is hard, to put it lightly. Effective coalitions such as the Third World Liberation Front organized Black, Chicano, and Asian university students to  strike in 1968, laying the foundations for ethnic studies as an academic discipline \cite{npr_student_nodate}. However, coalitions that fall short, such as the 1955 Bandung Conference between 29 African and Asian nations to organize against colonialism, can end up creating a false sense of solidarity that only feeds the injustices they seek to change \cite{nopper_illusion_2015}. Coalitions are organized relationships; according to this scholarship, a successful coalition is a reciprocal relationship between the concerned groups, a value widely held in social justice discourses including HCI \cite{dombrowski_social_2016} and Indigenous-led climate justice \cite{hobart_radical_2020, whyte_indigenous_2017, gomez-barris_extractive_2017}.
+
+Uniting under a common group identity and negotiating differences in values is a key feature of political movement-building. Rarely does a single group achieve political change without building alliances with other organizations \cite{post_multi-organizational_2015} and acting as part of a collective. The Language segment of our study showed differences in lived experiences that reflect similar dynamics in these historical coalitions. 
+Inspired by the contested space of E/ST language, we envision that, rather adopting a definitive group identity, E/ST can leverage this ``dissensus" (from adversarial design \cite{disalvo_adversarial_2015}) to acknowledge the multitude of disciplinary perspectives in the space and maintain a productive level of critical engagement with sustainability. As Robin Wall Kimmerer writes in \textit{Braiding Sweetgrass} on the ``grammar of animacy" (speaking about relationships between humans, land, and more-than-human beings as living connections \cite{kimmerer_braiding_2015}), everyday language can be seen as a tactic for embedding reciprocal, sustainable values into cultural practices. As an interdisciplinary, emergent field, E/ST is already positioned to become a coalition of disciplines working towards shared development goals. %\todo[relate back to our findings (esp. Language)] The disagreement in terms shows that coalition is difficult but suggests an opporutnity to suggest terms that  
+By leaning into language disagreements as opportunities to find terms that highlight values (as opposed to application domains),
+% the existing practices of relationship-building to collaborate within the field, 
+practitioners can foreground sustainability and incorporate principles of reciprocity and equity learned from social justice movements to align the community ethos with sustainable development.
+
+\subsection{Tool 2: We Establish Community Spaces for Growth}
+
+By starting with a workbench for sustainable E/ST, we realize that the stakeholders need a location to house it. Beyond a physical site, they also need to construct a social space with norms that facilitate reciprocal, equitable relationships while working at the table.
+% housing cooperatives, networks and norms
+% AORTA alliance for anti-oppressive trainings
+Particularly in the Prototyping segment, we saw a need for a virtual communal space to discuss E/ST practice, allowing for diverse knowledge frameworks to accommodate for different backgrounds. In this scene, such spaces have developed out of existing communities such as the E-Textiles Summer Camps \cite{noauthor_httpetextile-summercamporg_nodate} and activist hackerspaces \cite{renno_activism_nodate}, connected virtually by equally experimental networks evolved from eReuse.org \cite{franquesa_circular_2016}, where members can exchange and document sustainable tools, materials, and practices with practitioners in different spaces.
+These spaces allow people to enter sustainable E/ST with a variety of disciplinary perspectives, holding a place for them whether they come from design or production, electrical engineering or textiles or waste management. 
+% Lots of research out there on building better educational spaces, including ones for professional development.
+
+As discussions of diversity, equity, and inclusion (DEI -- sometimes ``JEDI" to include justice, too) become more mainstream in professional, as well as personal and educational, contexts, we have many potential resources to draw upon. Digital organizations such as All Tech is Human, which seeks to build the "responsible tech pipeline" \footnote{https://alltechishuman.org/} and the Intersectional Environmentalist \footnote{https://www.intersectionalenvironmentalist.com/}, promote values of DEI, sustainability, and other ethical concerns in multidisciplinary virtual forums and webinars. Similarly, community activism spaces, such as cooperative housing networks that engage with housing justice, compile resources for shared responsibilities, healthy communication, and conflict mediation \cite{nahc_national_nodate, aorta_aorta_2021} to maintain inclusive, pluralistic spaces.
+The value of such spaces for promoting education, critical reflection, and prosocial behaviors has been extensively studied in educational and organization research, including settings outside of traditional classrooms such as situated ``communities of practice" \cite{wenger_communities_1999}.
+We also see seeds of compatible thinking in existing interaction design and industry methods for sustainability. These spaces may borrow from "Agile" workflows which democratically "letting the actors involved find out what works or not" rather than top-down managers \cite{rolland_scaling_2016}. As another example, a handbook of sustainability in textiles technologies draws connections between ``lean" manufacturing mindsets and low-waste sustainability \cite{muthu_textiles_2017}. Lean methods have been taken up by various communities of practice, including start-up communities which A2 is a part of \cite{ries_lean_2011} which emphasize building a ``community" through direct product feedback and integrating design/development and user engagement in the same space. With careful cultivation, even parts of present-day manufacturing practice may be fruitful for sustainable development. We survey this array of spaces which all host discursive seeds for sustainability to suggest that, in addition to pursuing tooling agendas, HCI might also find a deeper understanding of sociotechnical innovation in activist spaces that lie outside of privileged design sites.
+
+
+% As discussed in the speculations from our Prototyping observations, an immediately actionable opportunity is to create and experiment with community spaces for E/ST. In fact, work in this regard has been underway for years through the E-Textiles Summer Camp (link) % TODO: CITE or note
+% , classroom spaces, and other scattered groups around the globe. We recognize the potential for a future multi-sited ethnography of E/ST practices in these spaces, perhaps inquiring into global perspectives and cultural influences on how sustainability is conceptualized in relation to the material practices of E/ST.
+% Flexsu's doing a Discord server and workshops
+
+% There's also lots of writing out there in how-to books for UX designers and prototyping people, "agile" or "lean" processes. <find sources, or as A2 for any faves> 
+% AND there's stuff that holistically talks about learning spaces intersecting with identities like race and gender, how to address power differences due to marginalization (DEI). So if we want to talk about sustainability in this intersectional sense, this literature could help.
+
+
+%ld - no new data here ;) In our own practices, we are exploring different collaborative structures for building community within our own networks. Of note, A2, after an initial limited-run release of Flexsu's products, created a Discord server as a backchannel for prototyping workshops that they would offer as a service with their components. Members of the server show some initial interest in developing more of a discussion forum outside of the workshops, so we are interested in seeing how this space develops, and how future inquiries might support the formation of a community.
+
+% Looking to sources which we have already referenced in this paper, and other related work, we propose the following starting points as sites of experimentation:
+
+% \textbf{How can E/ST spaces create educational resources that engage sustainability in a social and collaborative manner?} Especially with the field's emergent nature, not only are new materials surfacing frequently, but novel (to the space) ideas and techniques which may be carried in from other domains. These resources might build upon invaluable reference materials, such as those on KOBAKANT, with discussion and support spaces that facilitate supportive relationships around learning to navigate complex issues.
+
+% \textbf{How might sustainable E/ST spaces practice design justice and question conventions of documentation and codification?} As discussed in accounting for design justice in a speculative framework, a sociotechnical field will contain marginalized spaces and subaltern design sites resulting from existing inequities. Taking cues from radical spaces 
+
+\subsection{Tool 3: We Build Hardware Components to Ease Hard-Soft Connections}
+% my flexible hard-soft connections spiel
+Finally, after building the workbench and a home for a network of relationships to grow for a sustainable E/ST community of practice, we can finally build what are more conventionally considered ``tools". One such project is directly inspired by a conversation between A1 and one of the beta testers. The Prototyping segment highlights a hardware challenge present both in our speculative universe, as well as present E/ST development: the physical act of connecting digital electronic hardware (often made of rigid polymers and metals) to textile objects (e.g. fabrics, cushions, yarns which are usually soft and flexible). This material barrier has been discussed at length by practitioners in E/ST, even warranting a category of techniques under the label "hard-soft connections" \cite{kobakant_hardsoft_nodate}.
+If we consider that mixing materials and bonding hard-soft interfaces with adhesives makes disassembly, recycling, and sustainably manufacturing more difficult \cite{soh_design_2014, battaia_reverse_2015}
+, then hard-soft connections are not only the critical component of E/ST functionalities, but could also be a critical deciding factor in the sustainability of future E/ST products.
+
+In the Prototyping segment, we observed how electrical hard-soft connections were a major source of cognitive friction for the beta testers, preventing many from even starting their physical prototype. Additionally, several Manufacturing interviewees expressed frustration that hard-soft connections were often too bulky, or too fragile, or just too messy, which prevents prototypes and products that are comfortable, durable, and aesthetically pleasing.
+Inspired by the concept of ``interposers" from a beta tester, Hector, in contextualizing his work, we envision our future as one in which flexible microprocessor interposers can adapt existing rigid processors (e.g. Arduino boards) to a textile surface. Interposers, and the related ``carrier boards" and ``breakout boards" were existing tactics in embedded systems engineering that have been effective in facilitating physical interconnects and modular systems, from pre-2000 semiconductor manufacturing \cite{semiconductor_khandros_1992} to recent advances in flexible electronics \cite{souriau_wafer_2019, vervust_integration_2012}. Interposers in existing smart garments represent a system-wide hard-soft connection between the digital electronics and the textiles, reducing the technical development needed to make an E/ST device washable through modularity. 
+
+Translating the interposer model to prototyping and development tools in E/ST would extend flexibility, durability, and overall textile compatibility to any component that could potentially be used in an application. One iteration of the carrier board system might use Flexsu's printed substrate technology to create bases that are designed for different board footprints. We can build on the work of present-day E/ST hardware such as the Lilypad and Adafruit platforms \cite{buechley_lilypad_2008, posch_etextiles_2019, jones_wearable_2020}, which leverage textile techniques to create "sewable" circuits, in searching for textile-friendly components for the physical connectors. The carrier would use strong, yet releasable mechanical connectors to hold the processor module, while allowing it (the most sensitive component of an E/ST system) to be removed and replaced. 
+% Here, we are returning to a thread from the beta testers' struggles with choosing and using microprocessors for an E/ST prototype. After showing participants the KOBAKANT page on hard-soft connections that appropriate a variety of metal components across textiles (findings, zippers, snaps, etc.) for electronics use, we wondered why there were not more "hacks" for adapting and appropriating electronic components for textile use. 
+Developing this carrier board is then ideologically facilitating hard-soft connections between the material worlds of electronics and textiles, creating a more fluid disciplinary interface.
+
+
+% While thus far in issuing this challenge, we have not mentioned sustainability, notice that we have mentioned "modularity" and "washability" as features carried over from an interposer model. Modularity, reusability, and maintain-ability are all design tactics for sustainable systems, reducing resource consumption throughout an item's lifecycle <sources> % CITE
+% . By focusing development into creating hard-soft connections that are more durable and can be repeatedly connected/disconnected, we can enable more reliable modular designs and reusable prototypes in E/ST. Lastly, to reiterate our reflections, all of these interconnections are to facilitate more connections between people to build power in a movement for sustainable E/ST development. Hardware development could provide a hands-on avenue for technical disciplines to engage with sustainability by interrogating the environmental impacts of their materials, their place in global supply chains, and who is (not) in their networks of practice.
+
+% \subsection{Scene 4: We Design Software Tools that Foreground Material Impact}
+
+% Besides hardware tools, we also develop software with our sustainable E/ST colleagues.
+% Another design need which we observed, particularly in the Prototyping segment, is that creating conceptual or software interconnects between system components was also difficult. We need better ways to visualize connections and networks in these assemblages of hardware and software, cloud and local data, and soft and rigid design paradigms.
+
+% % As one possible avenue for addressing this issue, we propose creating software (or perhaps mixed-reality) tools to visualize on-body or in-environment circuits. Taking Flexsu's products as an example, one could envision a make-your-own-pack applet for bus connectors on a vendor's website, where users might sketch paths on application-specific templates. An potential reference would be the online schematic maker by Digi-key, one of the top three largest online electronic components vendors in North America (note link) % TODO: add footnote
+% % . The tool primarily serves to assist shoppers in ordering the correct parts from Digi-key's extensive inventory, and while we make no claims about the design implications beyond these preliminary observations, it provokes questions in interface design on how to link finite materials to theoretically infinite design simulations.
+
+% An inspirational example for these software tools that could connect different systems is Fritzing\footnote{https://fritzing.org/} \cite{knorig_fritzing_2009}% 
+% , a circuit design program shown to be accessible to many skill levels because of its visual representations of multiple views (e.g. schematic, PCB) when integrating components. Furthermore, HCI research in computer-assisted design (CAD) has shown how multiple views in software tools can not only assist designers in troubleshooting \cite{strasnick_coupling_2021}, but also engage them in material or broader-scope considerations such as reusing waste \cite{wall_scrappy_2021}, designing textile structures, \cite{friske_adacad:_2019}, and scaling for manufacturing \cite{khurana_beyond_2020}.
+% % Another notable feature is community contributions, where new circuit parts can be democratically added in by users, resulting in models of many switches, sensors, and even textile components.
+
+% We imagine complementary views that allow a designer to toggle between functional digital design and material constraints, such as switching between a view of a circuit's schematic and a view of the project's bills of material (BOM), can help designers take stock of material implements from different disciplines and domains. In assembling systems out of components that come from complex, historied infrastructures in textiles and electronics, such as sourcing waterproof fabrics alongside high-frequency sensors, such tools can expose users to the material and environmental impacts of their designs and develop tacit experience with sustainable design.
+
+% \subsection{Scene 5: We Practice Mutual Aid in ``Manufacturing"}
+
+% In this final scene, we listen in on the conversations around the workbench to find that they are quite plausible to conduct, even in the present. Here, we intentionally blur a speculative ideal and a recommended tactic in practicing \textit{mutual aid} when producing our E/ST artifacts. As an inspirational riff, we offer a principle from this form of community-based resource sharing: practicing mutual aid with one's neighbors is ``[helping] each other build the world we both will live in" \cite{leander_bindewald_httpswwwmutualaidnetworkorg_nodate}.
+
+% While the Manufacturing segment revealed several challenges to future sustainable E/ST production, we also observed how these challenges developed the participants' critical awareness of the systemic factors that drove their struggles. We envision methods by which ``manufacturing" provokes thought and subsequent engagement in making change at the system- and infrastructural-level. Ghoshal et al.'s work points out how a grassroots orientation towards ``inclusivity" generates ``beliefs, practices, and artifacts" which generate an emergent technoculture \cite{ghoshal_toward_2020}. We offer one such synthesis by explicitly discussing reciprocity and equity in each transaction we carry out when prototyping or manufacturing E/ST technology. In doing so, we practice this sustainable vision in embodied, locally impactful ways.
+
+
+\section{Limitations: Our Positionality}
+
+The scenes at our sustainable E/ST workbench represent an appropriately incomplete selection of possible tools. While we attempt to incorporate diverse viewpoints in our speculative construction, our methods and analysis through relationships is limited by our own subjective positions.
+% In the research process, several considerations were made for the authors' circumstances. First, our mixed team of academic and industry positions  encountered friction between these structures right at the outset of our collaboration, while proposing this study to an Institutional Review Board (IRB). The depth of personal engagement we sought from the study participants warranted the researchers taking responsibility for participants' confidentiality. For the same reasons that most start-ups do not have the capacity to comply with sustainability regulations while large corporations do, Flexsu did not have the capacity to take on the bureaucratic requirements to engage with IRB-approved research in the same way that a large research university did. Our extra anonymization procedures for study participants minimized Flexsu's liability, but conflicted with our relationship-based research ethos in adding a barrier between A2 and the participants as fellow E/ST practitioners. 
+% , our visible politicized identities (i.e. race and gender), and collaborating completely remotely during the COVID-19 pandemic. 
+For one, navigating research through relationship-building filters the data through a particular subjectivity: how the researcher personally navigates social relationships. A1's positionality as a genderqueer person of color made them very cautious to probe values of social equity in race, gender, and other issues with participants, unless the participant disclosed their own identities first or A1 knew them previously.
+%In discussing our specific positionalities, we return to the combination of the speculative cone with intersectional design justice. Examining the present in more detail in Fig. \ref{fig:justice-futures-cone}, we can view what Costanza-Chock terms the \textit{matrix of domination} and how it systematically biases which futures are possible and plausible. This structure privileges certain design sites such as ``hackerspaces, makerspaces, and hackathons", while subjugating the majority of sociotechnical practice that takes place in marginalized and oppressed communities. These other sites under the matrix of domination, called \textit{subaltern design sites}, ``have always existed" in places such as weaving studios and auto shops, unacknowledged for their ingenuity. 
+While the authors' individual identities privilege them differently in race and gender, we need to acknowledge our privilege as English-speaking, American practitioners working in privileged design sites: universities and tech start-ups. 
+Our relationship-based methods thus limited our study socially and geographically, reflecting any existing privilege biases in our personal and professional networks. While some of our interviewees had previously worked in subaltern design sites for E/ST, such as retail and production sewing, all their current positions were in similarly privileged sites. As a group primarily connected to other E/ST practitioners in the USA and in Europe, our participant groups hardly included any colleagues from the Global South. 
+% \todo[NO NEW THEORY]{To interrogate this limit, we add another element to the design justice landscape with a compatible concept from environmental justice, in the form of ``submerged perspectives"} from G\'{o}mez-Barris' work in environmental justice with Indigenous communities in South America \cite{gomez-barris_extractive_2017}, describing a geography of practices so obscured by the surface of colonialism and global capitalism that they find a certain form of autonomy from being invisible to the matrix of domination.  
+
+The limitations in our conclusions represent opportunities for further inquiry, especially in supporting E/ST practitioners from Indigenous and non-Western communities and their visions for sustainability. A design justice lens, focusing especially on a grassroots organizing ethos, lets us take stock of how we can use our findings and speculations in our own local communities of practice to find unique ways of doing sustainability. We actually see this lack of ``generalizability" as potential grounds for HCI and design inquiry into a multidimensional, globally diverse understanding of sustainable E/ST development. 
+% Returning to the issue of "scaling" as a tension in E/ST collaborations, studies of cross-discipline conversations show that questions about how a novel idea "scales" can shut down participants and limit the generative capacity of brainstorming sessions \cite{niess_no_2020}. Yet, multiple definitions of ``scalability" exist simultaneously in manufacturing systems research \cite{putnik_scalability_2013}, suggesting that there may be multidimensional ways of understanding a global issue through globally diverse perspectives. 
+We offer our method of \textit{speculative construction} as a prompt for \textit{retooling} for relationships and sustainable values as tactics for readers who wish to nurture their own communities of practice for sustainable development,  while staying humble in knowing that sustainability may be done differently elsewhere.
+
+% We also saw that  We recognize that this omission severely limits the generalizability of our study's findings to a global E/ST field, % CITE source explaining intention for using this term - postcolonial computing? HCI 4D
+% WORDING: layers, histories, colonialism, post-colonial computing, speaks to discourses, systemic factors, problems with even choosing a geographic term to acknowledge these histories without perpetuating biases (e.g. "developing" countries)
+% especially given the significant contributions to E/ST in these regions (cite).
+% Furthermore, we believe that we must prioritize improving % outreach to non-USA/European collaborators and sustainable E/ST needs to consider global perspectives
+% Global South is disproportionately affected by climate change due to histories of colonialism
+% also have separate (by design) positions in manufacturing systems
+% Vital in HCI4D and justice-based movements to consider postcolonial perspectives
+
+% \begin{figure}[ht]
+%     \centering
+%     \hspace{4em}
+%     \includegraphics[height=1.5in]{figures/Assembling Seams FIGURES-Future Cone.png}
+%     \hfill
+%     \includegraphics[height=1.5in]{figures/Assembling Seams FIGURES-Matrix of Dom_Submerged Perspectives.png}
+%     \hspace{2em}
+%     \caption{(left) An expanded view of the beginning of the futures cone \cite{dunne_speculative_2013}, showing that the "present" arises from messy histories of truncated possibilities, once futures to a past point in time. (right) A closer look at the conceptualization of a ``present" landscape which speculative futures will build upon, incorporating concepts from design justice to acknowledge histories of privilege and domination.}
+%     \label{fig:justice-futures-cone}
+% \end{figure}
+
+% We couldn't spend a lot of time because ultimately, the timeline was decided by Flexsu's product development which in turn depended on their production. And sustainability is a hard topic to broach, so it was almost 99\% in speculations. 
+% The beta test strongly suggested that we needed more than three weeks for a period of independent observation, perhaps treating such a study as more of a 6-week summer course. 
+% cite: "time-deepening" in HCI work and "infrastructure" time, connect to discussions of "time" scales in sustainability scholarship
+% However, with these now-established connections (which we are still maintaining), we now have more chances to go back and explore more.
+
+
+% \todo[REWORK]{DISCUSSION, connecting it all back. describe how we intend for readers to take up ideas. and personally reflect on how creating "specuations' of systems we want is different than making design reccomendations for immediate action. perhpas its useful to reflect on the role of prototypes in this ecosystem - that some parts of our speculation relied on tools while others relied on other spaces. where can Hci come into play in this speculation}
+
+% Even in E/ST or computational design work that claims to address ``scalability", authors may be referring to different dimensions of scale. For example, 
+% \cite{karimi_systems_2018} identifies the ``scalable" features of their prototype as cheap, nontoxic materials and compatibility with existing infrastructure, while 
+% \cite{hennelly_makerspaces_2019} discussing ``scalability" as applied to makerspaces seems to emphasize the replicability dimension.
+
+% Related to this last provocation is an array of other theoretical components of E/ST technology, such as the meaning of ``infrastructure" and ``supply chain" in a sustainable manufacturing ecosystem, or the meanings of "lifecycle", "product", and "raw resource" if circularity and design for disassembly are assumed as alternative norms. Further theoretical inquiry into sustainable E/ST -- be it deeper studies of language use in interdisciplinary E/ST practices, systematic analyses of literature, or critical reviews that examine the (dis)organization of the domain corpus -- may not only yield insight into sustainable development tactics for the E/ST field, but translatable insights for other technologies, as well.
+
+\section{Conclusion}
+
+% Our work studied collaborative relationships in E/ST and found all of this.
+In summary, this work studied language use, prototyping, and manufacturing practices within the e-textiles/smart textiles (E/ST) field, an emergent interdisciplinary domain of technology. As E/ST practitioners ourselves, we make the case for the specific stake which the E/ST field holds in advancing intersectional sustainability, and are thus motivated to steer the field towards sustainable development in both academic and industry contexts. In observing how three aspects of E/ST practice -- language, prototyping, and manufacturing -- shaped how practitioners formed and negotiated their collaborative relationships, we 
+% (whose collaborative relationships between each other and with the study participants were reflexively part of the study) 
+found themes of how these relationships were used to construct collective values in E/ST development. In constructing the field as a shifting gestalt of relationships, we propose \keyterm{speculative construction} of sustainable E/ST as a tactic for connecting E/ST development to discourses in making sustainable, socio-ecological change.
+% People form relationships for many purposes, usually to help themselves get to some goal. 
+% Politics is all about organizing these relationships and negotiating goals to achieve a collective net gain. 
+% "organizing" comes before "mobilizing". Establishing more connections also gives someone like me more soft power when pursuing a sustainability agenda.
+
+To answer our original question of how sustainability manifests in ``material, implicit ways" in E/ST, we expand on how interpersonal relationships drive E/ST development. Literature in ethnographies of design, software development, STEM education, hardware prototyping, and many other areas of technological practice would corroborate the deeply emotional dimensions of work that is publicly constructed as objective and intellectual. However, our findings suggest that much work is needed to deconstruct manufacturing's template which is dominated by machines and minimizes human agency. 
+% Our participants in the language, prototyping, and manufacturing segments led us to believe that, until someone deals with manufacturing first-hand in scaling new E/ST technology, practitioners are generally not aware that manufacturing is more than solving a technical constraint. Rather, 
+A significant portion of manufacturing is spent negotiating with other human stakeholders with expertise outside of the prototype's scope (e.g. supply chain, venture capital funding) and satisfying their requirements, assuming one can even get them in conversation. When talking to our manufacturing experts, the "supply chain" was not a matter of logistics and moving materials between places. Instead, the supply chain represented a series of gatekeepers who were frustratingly difficult to signal for attention. 
+
+While this conceptualization of "scale" in E/ST futures points to a need for educating interdisciplinary technologists on the business and social skills needed to advocate for their work, we argue a more radical position: that sustainable E/ST practice needs to build relationships first, then design tools in response. The E/ST field can seize upon existing relationship- and future-oriented practices to discuss sustainability critically, and beyond conversation (as talk is cheap yet necessary), actually develop more tools and tactics for sustainable E/ST designs at inception. By forming coalitions across disciplinary boundaries, creating spaces to hold these boundaries between knowledge frameworks as subjects of agonistic examination, and provoking engagement with alternative infrastructures in software, hardware, and larger systems, we take this speculative construction as a site for \keyterm{retooling for sustainable E/ST} workbenches of the future. Our scenes describe these tools not only as aspirational ideals, but also as actionable opportunities for designers.
+% In closing, we offer one actionable conversational tactic for current E/ST practitioners and those who are not yet in E/ST: \textbf{Emphasizing that interpersonal, mutually beneficial relationships are as valuable as technical and creative skills for someone in E/ST to be successful -- and centering that when creating projects and professional networks -- will scaffold sustainable mindsets in the field.} 
+We contribute these tactics for E/ST and allies in other HCI or ICT communities to orient themselves towards grassroots political organizing around sustainability, where forming and maintaining interpersonal relationships is part of making change, and more importantly, is where the most radically transformative work on sustainable futures is happening.
+
+
+% %% define the bibliography style +
+% %% the bibliography file
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{assembling-seams}
+
+% %%
+% %% If your work has an appendix, this is the place to put it.
+% \appendix
+
+\end{document}
+\endinput

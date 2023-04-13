@@ -1,0 +1,6 @@
+PWD h:/My Drive/Dissertation/snippets
+INPUT c:/texlive/2022/texmf.cnf
+INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt
+INPUT h:/My Drive/Dissertation/snippets/unfabricate.tex
+OUTPUT unfabricate.log

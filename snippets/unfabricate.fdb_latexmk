@@ -1,0 +1,19 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "unfabricate.xdv" "unfabricate.pdf" "unfabricate" 0 -1
+  "unfabricate.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "unfabricate.pdf"
+  (rewritten before read)
+["xelatex"] 1679037431 "h:/My Drive/Dissertation/snippets/unfabricate.tex" "unfabricate.xdv" "unfabricate" 1679037432 2
+  "c:/texlive/2022/texmf-dist/web2c/texmf.cnf" 1678404191 40171 cdab547de63d26590bebb3baff566530 ""
+  "c:/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1678412102 10502473 36d4d5c6911a5d27ebd9ac9ff3ba7bb4 ""
+  "c:/texlive/2022/texmf.cnf" 1678411926 713 614551405fc44b98efbf516466e3c909 ""
+  "h:/My Drive/Dissertation/snippets/unfabricate.tex" 1677557278 73431 230f66527a2ef1396847e313d7361969 ""
+  "sigchi.cls" 0 -1 0 ""
+  "unfabricate.aux" 1679037431 34 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "unfabricate.tex" 1677557278 73431 230f66527a2ef1396847e313d7361969 ""
+  (generated)
+  "unfabricate.aux"
+  "unfabricate.log"
+  "unfabricate.xdv"
+  (rewritten before read)
