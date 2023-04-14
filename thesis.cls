@@ -1011,8 +1011,9 @@
 % The base commands that make all of the prologue pages.
 \newcommand*{\th@Titlepage}{
 	\thispagestyle{empty}
+	\null\vspace*{\fill}
 	\@thInHeadingtrue
-	\null\vspace{5em}
+	\vspace{5mm}
 	\begin{list}{}{\setlength{\leftmargin}{0.8in}
 				\setlength{\rightmargin}{0.8in}\sloppy}
 		\centering\item[]
@@ -1031,7 +1032,7 @@
 			\fi}
 		\th@otherdegrees\\
 	\end{list}
-	\vspace{2em}
+	\vspace{1mm}
 	\begin{center}
 		A thesis submitted to the\\
 		Faculty of the Graduate School of the\\
@@ -1042,7 +1043,7 @@
 		\ \th@degreeyear \\
 	\end{center}
 	\begin{flushright}
-	\vfill
+	\vspace{1mm}
 	% List committee members on title page
 	Committee Members:\\
 	\th@advisor, Chair\\  % REQUIRED
@@ -1056,8 +1057,8 @@
 	\ifthenelse{\equal{\th@readerSix}{none}}{\relax}
 		{\th@readerSix\\} % optional
 	\end{flushright}
-	\@thInHeadingfalse
-	\vfill
+	\@thInHeadingfalse\relax
+	% \vfill
 }
 \newcommand*{\th@Approvalpage}{
 	\singlespacing

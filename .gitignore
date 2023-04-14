@@ -6,3 +6,6 @@
 *.aux
 *.gz
 *.xdv
+*.xdv
+*.gz
+*.log
