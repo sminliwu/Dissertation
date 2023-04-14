@@ -1,0 +1,120 @@
+\contentsline {part} {\chapternameToC }{\relax }{}
+\contentsline {chapter}{\numberline {\th@ChapterStyle 1}\normalsize \normalfont Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Why Craft?}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Retooling: Crafting for Sustainability and Social Justice}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Coproduction: the ``Hybrid'' Nature of E-Textiles}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Synopsis}{5}{section.1.4}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 2}\normalsize \normalfont Background}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}\textcolor {red}{Digital Fabrication}}{8}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}\textcolor {red}{Craft and Human-Machine Relations}}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}\textcolor {red}{Inventing} Tools}{11}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Textiles}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Craft Techniques}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Sustainability and History}{17}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Social Justice}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Craftivism}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Making Futures and Worlds}{19}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}AdaCAD: Software for Craft}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Integrating Craft into Technical Practice }{24}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Retooling Textiles Craft in Software}{25}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Artifacts of Coproduction}{27}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 3}\normalsize \normalfont Naming E-textiles}{30}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Are ``E-Textiles'' and ``Smart Textiles'' Different?}{30}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Study Design: Three Aspects of E-textiles Practice}{31}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The Language Survey}{32}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Design}{33}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Distribution and Initial Analysis}{34}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Community Discussion}{34}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Findings: Differing Value Alignments}{34}{section.3.4}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 4}\normalsize \normalfont Unfabricate}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Why Design E-Textiles for Disassembly?}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Background: Textiles and Sustainability}{41}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Fabricating Sustainable Textiles}{42}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Approaches to Sustainability and Reuse in HCI}{43}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Unravel-ability of Knitted and Woven Garments}{44}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Methods and Approach}{45}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Process}{46}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Sensitization: Unravelling Procedures}{46}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Designing for Unravelling}{49}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}From Knitting to Weaving}{49}{subsubsection.4.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}Shape Weaving}{49}{subsubsection.4.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.3}Modifications to Physical Equipment}{54}{subsubsection.4.4.2.3}%
+\contentsline {subsection}{\numberline {4.4.3}Encoding Practices in Computational Design Tools}{57}{subsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.3.1}Shapes from a Draft}{57}{subsubsection.4.4.3.1}%
+\contentsline {subsection}{\numberline {4.4.4}Design Artifact: Shape Woven Soft Potentiometer}{58}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}A Design for Disassembly Provocation}{59}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Shift from Throughput to Longevity}{61}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Honor the Hands that Made the Materials}{62}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Acknowledge the Histories and Futures of Materials}{63}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Creative Possibilities for HCI in Disassembly}{64}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}3D Shape Weaving for Garments}{65}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Repairing and Modifying Yarn}{65}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Modular Unravelling}{66}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}The Craft of Disassembly}{67}{section.4.7}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 5}\normalsize \normalfont Loom Pedals}{70}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Why Should We Retool Jacquard Weaving?}{70}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Related Work}{72}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Weaving in Digital Fabrication}{73}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Textile Crafts, Technology, and Design}{73}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Improvisation and Playfulness in Fabrication}{74}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Background: Loom Hardware and the Weaver's Design Process}{75}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Tapestry Looms}{76}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Shaft Looms}{76}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Jacquard Looms}{78}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}The Broader Space of Looms}{79}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Design Process}{80}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Design Goal: Improvisation and Play in Weaving}{80}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Using the TC2: Existing Interface, Sampling Workflow, Frustration Points}{81}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Conceptualizing the Loom Pedals}{82}{subsection.5.4.3}%
+\contentsline {subsubsection}{\numberline {5.4.3.1}Methods}{82}{subsubsection.5.4.3.1}%
+\contentsline {subsubsection}{\numberline {5.4.3.2}Design Metaphors}{82}{subsubsection.5.4.3.2}%
+\contentsline {section}{\numberline {5.5}Loom Pedals System}{83}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Weaving with the Loom Pedals}{83}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Hardware: Circuit and Physical Design}{85}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Communications}{89}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}User Interface: The Draft Player}{89}{subsection.5.5.4}%
+\contentsline {section}{\numberline {5.6}Evaluation}{90}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Recruiting Collaborators}{92}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Procedure}{92}{subsection.5.6.2}%
+\contentsline {section}{\numberline {5.7}Findings: Improvisational Weaving with the Loom Pedals}{94}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}The Pedals Overcame Inertia and Provoked Happy Accidents}{94}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Interactions Felt Musical}{96}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Improvisation Required Learning and Unlearning}{97}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}Weavers Needed to Trust the Machine}{98}{subsection.5.7.4}%
+\contentsline {section}{\numberline {5.8}Mapping Possible Features}{98}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Draft Inputs: Remixing and Emulating}{98}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Physical Inputs: Sliders and Knobs}{99}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Time Inputs: the Operation Sequencer}{100}{subsection.5.8.3}%
+\contentsline {section}{\numberline {5.9}Discussion}{100}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Playful Peripherals for Digital Fabrication}{101}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Generating Features Through Metaphor}{102}{subsection.5.9.2}%
+\contentsline {subsection}{\numberline {5.9.3}Learning from Historical Technologies}{103}{subsection.5.9.3}%
+\contentsline {section}{\numberline {5.10}Crafting Future Tools with the Past}{104}{section.5.10}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 6}\normalsize \normalfont Speculations}{106}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Background: The Scope of E-Textiles and Sustainability}{107}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}My Position: Sustainability means Intersectional Climate Justice}{108}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Current Approaches to Sustainable E-textiles}{110}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}How Might We Coproduce Sustainable E-Textiles?}{111}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Methods: Crafting a Speculative Construction}{113}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Where Does Sustainability Fit?}{115}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Interviewing E-Textiles Makers}{115}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Prototyping}{116}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Manufacturing}{117}{subsection.6.5.2}%
+\contentsline {section}{\numberline {6.6}Findings: the Centrality of Relationships}{118}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Prototyping: Materials First, Sustainability (and Other Values) Later}{119}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Manufacturing: Gatekeeping and Templated Relationships}{121}{subsection.6.6.2}%
+\contentsline {section}{\numberline {6.7}Discussion: Retooling for Sustainable e-textiles}{124}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Tool 1: We Form a Coalition for Sustainable E-Textiles}{126}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Tool 2: We Establish Community Spaces for Growth}{127}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.7.3}Tool 3: We Build Hardware Components to Ease Hard-Soft Connections}{129}{subsection.6.7.3}%
+\contentsline {section}{\numberline {6.8}Limitations: Our Positionality}{130}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Crafting the Preferable Future(s)}{132}{section.6.9}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 7}\normalsize \normalfont Conclusion}{135}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Summary}{135}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Contribution and Limitations}{136}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Future Directions}{139}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Crafting Sustainable E-Textiles Infrastructures}{139}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Retooling in a Community}{139}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Handmade Ecologies}{140}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Calls to Action}{141}{section.7.4}%
+\contentsline {part}{ \normalsize \sffamily \bfseries Bibliography\normalfont }{143}{chapter*.32}%
