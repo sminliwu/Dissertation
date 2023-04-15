@@ -71,6 +71,12 @@
 \newblock In {\em Industrial {Heritage} {Re}-tooled}. Routledge, 2013.
 \newblock Num Pages: 7.
 
+\bibitem{alexiadou_grammar_2016}
+{\sc Alexiadou, A., and Lohndal, T.}
+\newblock {\em The {Grammar} of {Multilingualism}}.
+\newblock Frontiers Media SA, Oct. 2016.
+\newblock Google-Books-ID: x8G0DQAAQBAJ.
+
 \bibitem{aoki_vehicle_2009}
 {\sc Aoki, P.~M., Honicky, R.~J., Mainwaring, A., Myers, C., Paulos, E.,
   Subramanian, S., and Woodruff, A.}
@@ -1014,6 +1020,13 @@
   {Factors} in {Computing} {Systems}}. Association for Computing Machinery, New
   York, NY, USA, Apr. 2018, pp.~1--13.
 
+\bibitem{liu_decomposition_2019}
+{\sc Liu, S.-Y.~C., Bardzell, J., and Bardzell, S.}
+\newblock Decomposition as {Design}: {Co}-{Creating} (with) {Natureculture}.
+\newblock In {\em Proceedings of the {Thirteenth} {International} {Conference}
+  on {Tangible}, {Embedded}, and {Embodied} {Interaction}\/} (Tempe Arizona
+  USA, Mar. 2019), ACM, pp.~605--614.
+
 \bibitem{liu_advances_2018}
 {\sc Liu, Z., Mo, F., Li, H., Zhu, M., Wang, Z., Liang, G., and Zhi, C.}
 \newblock Advances in {Flexible} and {Wearable} {Energy}-{Storage} {Textiles}.
@@ -1048,6 +1061,13 @@
 \newblock Understanding repair as a creative process of everyday design.
 \newblock In {\em Proceedings of the 8th ACM Conference on Creativity and
   Cognition\/} (New York, NY, USA, 2011), C\&C '11, ACM, pp.~81--90.
+
+\bibitem{magrisso_digital_2018}
+{\sc Magrisso, S., Mizrahi, M., and Zoran, A.}
+\newblock Digital {Joinery} {For} {Hybrid} {Carpentry}.
+\newblock In {\em Proceedings of the 2018 {CHI} {Conference} on {Human}
+  {Factors} in {Computing} {Systems}\/} (New York, NY, USA, 2018), {CHI} '18,
+  ACM, pp.~167:1--167:11.
 
 \bibitem{maguire_doing_2017}
 {\sc Maguire, M., and Delahunt, B.}
@@ -1742,6 +1762,14 @@
 \newblock In {\em Proceedings of the 9th Nordic Conference on Human-Computer
   Interaction\/} (New York, NY, USA, 2016), NordiCHI '16, ACM,
   pp.~141:1--141:3.
+
+\bibitem{tsaknaki_articulating_2017}
+{\sc Tsaknaki, V., Fernaeus, Y., Rapp, E., and Solsona~Belenguer, J.}
+\newblock Articulating {Challenges} of {Hybrid} {Crafting} for the {Case} of
+  {Interactive} {Silversmith} {Practice}.
+\newblock In {\em Proceedings of the 2017 {Conference} on {Designing}
+  {Interactive} {Systems}\/} (New York, NY, USA, 2017), {DIS} '17, ACM,
+  pp.~1187--1200.
 
 \bibitem{tuck_singing_2006}
 {\sc Tuck, A.}

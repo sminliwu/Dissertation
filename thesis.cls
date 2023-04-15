@@ -1032,7 +1032,7 @@
 			\fi}
 		\th@otherdegrees\\
 	\end{list}
-	\vspace{1mm}
+	% \vspace{1mm}
 	\begin{center}
 		A thesis submitted to the\\
 		Faculty of the Graduate School of the\\
