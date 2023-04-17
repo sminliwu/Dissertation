@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.9)  16 APR 2023 21:25
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.9)  16 APR 2023 23:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -724,7 +724,7 @@ Overfull \hbox (1.39063pt too wide) detected at line 100
 
 
 Overfull \hbox (1.39063pt too wide) detected at line 101
- []\TU/NotoSerif(0)/m/n/10.95 120
+ []\TU/NotoSerif(0)/m/n/10.95 121
  []
 
 
@@ -891,10 +891,14 @@ Overfull \hbox (1.39063pt too wide) detected at line 33
 ] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] (./ch_2_adacad.tex [23]
 File: figs/AdaCAD_weavedrafts_300.jpg Graphic file (type bmp)
 <figs/AdaCAD_weavedrafts_300.jpg>
- [24] [25] [26] [27]
+ [24] [25] [26]
 File: figs/AdaCAD_multicomp.jpg Graphic file (type bmp)
 <figs/AdaCAD_multicomp.jpg>
- [28] [29])) (./ch_3_e-textiles.tex [30]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27] [28])) (./ch_3_e-textiles.tex [29] [30]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
 [31
 
@@ -1009,15 +1013,15 @@ File: figs/EST_Matrix of Dom_Submerged Perspectives.png Graphic file (type bmp)
 
 ] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]) [174] (./_main.aux)
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 63F5CA282C2FAEB1EDFE4EAF6F540506;24830.
+(rerunfilecheck)             Checksum: F802DB7504A60CDCD1A6C048E9F6E71C;24848.
  ) 
 Here is how much of TeX's memory you used:
- 15288 strings out of 476684
- 301173 string characters out of 5807584
+ 15292 strings out of 476684
+ 301331 string characters out of 5807584
  1873012 words of memory out of 5000000
- 35227 multiletter control sequences out of 15000+600000
- 520312 words of font info for 113 fonts, out of 8000000 for 9000
+ 35229 multiletter control sequences out of 15000+600000
+ 520328 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,11n,85p,2293b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.xdv (187 pages, 3752792 bytes).
+Output written on _main.xdv (187 pages, 3753596 bytes).

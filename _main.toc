@@ -14,10 +14,10 @@
 \contentsline {section}{\numberline {2.3}Social Justice}{18}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Craftivism}{18}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Making Futures and Worlds}{19}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}AdaCAD: Software for Craft}{23}{section.2.4}%
+\contentsline {section}{\numberline {2.4}\textcolor {red}{Joining the Strands in AdaCAD}}{23}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Integrating Craft into Technical Practice }{24}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Retooling Textiles Craft in Software}{26}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Artifacts of Coproduction}{28}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.2}Retooling Textiles Craft in Software}{25}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Artifacts of Coproduction}{27}{subsection.2.4.3}%
 \contentsline {chapter}{\numberline {\th@ChapterStyle 3}\normalsize \normalfont Naming E-textiles}{31}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Are ``E-Textiles'' and ``Smart Textiles'' Different?}{32}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Study Design: Three Aspects of E-textiles Practice}{33}{section.3.2}%
@@ -98,7 +98,7 @@
 \contentsline {section}{\numberline {6.3}Where Does Sustainability Fit?}{117}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Methods: Crafting a Speculative Construction}{117}{section.6.4}%
 \contentsline {section}{\numberline {6.5}Interviewing E-Textiles Makers}{120}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Prototyping}{120}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.1}Prototyping}{121}{subsection.6.5.1}%
 \contentsline {subsection}{\numberline {6.5.2}Manufacturing}{122}{subsection.6.5.2}%
 \contentsline {section}{\numberline {6.6}Findings: the Centrality of Relationships}{123}{section.6.6}%
 \contentsline {subsection}{\numberline {6.6.1}Prototyping: Materials First, Sustainability (and Other Values) Later}{124}{subsection.6.6.1}%
