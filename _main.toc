@@ -5,16 +5,16 @@
 \contentsline {section}{\numberline {1.3}Coproduction: the ``Hybrid'' Nature of E-Textiles}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Synopsis}{6}{section.1.4}%
 \contentsline {chapter}{\numberline {\th@ChapterStyle 2}\normalsize \normalfont Background}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}\textcolor {red}{Digital Fabrication}}{8}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}\textcolor {red}{Craft and Human-Machine Relations}}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}\textcolor {red}{How Tools Matter}}{11}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.1}Digital Fabrication}{8}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Craft and Human-Machine Relations}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}How Tools Matter}{11}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Textiles}{15}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Craft Techniques}{15}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Sustainability and History}{17}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Social Justice}{18}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Craftivism}{18}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Making Futures and Worlds}{19}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}\textcolor {red}{Joining the Strands in AdaCAD}}{23}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Joining the Strands in AdaCAD}{23}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Integrating Craft into Technical Practice }{24}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Retooling Textiles Craft in Software}{25}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Artifacts of Coproduction}{27}{subsection.2.4.3}%
@@ -91,7 +91,7 @@
 \contentsline {subsection}{\numberline {5.9.3}Learning from Historical Technologies}{106}{subsection.5.9.3}%
 \contentsline {section}{\numberline {5.10}Crafting Future Tools with the Past}{107}{section.5.10}%
 \contentsline {chapter}{\numberline {\th@ChapterStyle 6}\normalsize \normalfont Speculations}{110}{chapter.6}%
-\contentsline {section}{\numberline {6.1}\textcolor {red}{How Might We Coproduce Sustainable E-Textiles?}}{111}{section.6.1}%
+\contentsline {section}{\numberline {6.1}How Might We Coproduce Sustainable E-Textiles?}{111}{section.6.1}%
 \contentsline {section}{\numberline {6.2}The Scope of E-Textiles and Sustainability}{112}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}My Position: Sustainability means Intersectional Climate Justice}{113}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Current Approaches to Sustainable E-textiles}{115}{subsection.6.2.2}%
@@ -104,11 +104,11 @@
 \contentsline {subsection}{\numberline {6.6.1}Prototyping: Materials First, Sustainability (and Other Values) Later}{124}{subsection.6.6.1}%
 \contentsline {subsection}{\numberline {6.6.2}Manufacturing: Gatekeeping and Templated Relationships}{125}{subsection.6.6.2}%
 \contentsline {section}{\numberline {6.7}Discussion: Retooling for Sustainable e-textiles}{128}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}Tool 1: We Form a Coalition for Sustainable E-Textiles}{131}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.1}Tool 1: We Form a Coalition for Sustainable E-Textiles}{130}{subsection.6.7.1}%
 \contentsline {subsection}{\numberline {6.7.2}Tool 2: We Establish Community Spaces for Growth}{132}{subsection.6.7.2}%
-\contentsline {subsection}{\numberline {6.7.3}Tool 3: We Build Hardware Components to Ease Hard-Soft Connections}{134}{subsection.6.7.3}%
+\contentsline {subsection}{\numberline {6.7.3}Tool 3: We Build Hardware Components to Ease Hard-Soft Connections}{133}{subsection.6.7.3}%
 \contentsline {section}{\numberline {6.8}Limitations: Our Positionality}{135}{section.6.8}%
-\contentsline {section}{\numberline {6.9}Crafting the Preferable Future(s)}{138}{section.6.9}%
+\contentsline {section}{\numberline {6.9}Crafting the Preferable Future(s)}{137}{section.6.9}%
 \contentsline {chapter}{\numberline {\th@ChapterStyle 7}\normalsize \normalfont Conclusion}{141}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Summary}{141}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Contribution and Limitations}{142}{section.7.2}%
@@ -117,4 +117,8 @@
 \contentsline {subsection}{\numberline {7.3.2}Retooling in a Community}{145}{subsection.7.3.2}%
 \contentsline {subsection}{\numberline {7.3.3}Handmade Ecologies}{146}{subsection.7.3.3}%
 \contentsline {section}{\numberline {7.4}Calls to Action}{148}{section.7.4}%
-\contentsline {part}{ \normalsize \sffamily \bfseries Bibliography\normalfont }{149}{chapter*.33}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 8}\normalsize \normalfont Epilogue: To a Future Researcher}{149}{chapter.8}%
+\contentsline {section}{References}{151}{section*.33}%
+\contentsline {part}{ \normalsize \sffamily \bfseries Bibliography\normalfont }{151}{section*.33}%
+\contentsline {part} {\appendixnameToC }{\relax }{}
+\contentsline {chapter}{\numberline {\th@ChapterStyle A}\normalsize \normalfont Git Repositories}{182}{appendix.A}%

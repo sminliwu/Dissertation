@@ -357,6 +357,99 @@
 \newcommand*{\@normalsize}{\normalsize}
 \doublespacing
 
+% BIBLIOGRAPHY FROM ACMART FORMAT
+\RequirePackage{natbib}
+\renewcommand{\bibsection}{%
+	\section*{\refname}%
+	\phantomsection\addcontentsline{toc}{section}{\refname}%
+}
+% \renewcommand{\bibfont}{\bibliofont}
+\renewcommand\setcitestyle[1]{
+	\@for\@tempa:=#1\do
+		{\def\@tempb{round}\ifx\@tempa\@tempb
+			\renewcommand\NAT@open{(}\renewcommand\NAT@close{)}\fi
+		\def\@tempb{square}\ifx\@tempa\@tempb
+			\renewcommand\NAT@open{[}\renewcommand\NAT@close{]}\fi
+		\def\@tempb{angle}\ifx\@tempa\@tempb
+			\renewcommand\NAT@open{$<$}\renewcommand\NAT@close{$>$}\fi
+		\def\@tempb{curly}\ifx\@tempa\@tempb
+			\renewcommand\NAT@open{\{}\renewcommand\NAT@close{\}}\fi
+		\def\@tempb{semicolon}\ifx\@tempa\@tempb
+			\renewcommand\NAT@sep{;}\fi
+		\def\@tempb{colon}\ifx\@tempa\@tempb
+			\renewcommand\NAT@sep{;}\fi
+		\def\@tempb{comma}\ifx\@tempa\@tempb
+			\renewcommand\NAT@sep{,}\fi
+		\def\@tempb{authoryear}\ifx\@tempa\@tempb
+			\NAT@numbersfalse\fi
+		\def\@tempb{numbers}\ifx\@tempa\@tempb
+			\NAT@numberstrue\NAT@superfalse\fi
+		\def\@tempb{super}\ifx\@tempa\@tempb
+			\NAT@numberstrue\NAT@supertrue\fi
+		\def\@tempb{nobibstyle}\ifx\@tempa\@tempb
+			\let\bibstyle=\@gobble\fi
+		\def\@tempb{bibstyle}\ifx\@tempa\@tempb
+			\let\bibstyle=\@citestyle\fi
+		\def\@tempb{sort}\ifx\@tempa\@tempb
+			\def\NAT@sort{\@ne}\fi
+		\def\@tempb{nosort}\ifx\@tempa\@tempb
+			\def\NAT@sort{\z@}\fi
+		\def\@tempb{compress}\ifx\@tempa\@tempb
+			\def\NAT@cmprs{\@ne}\fi
+		\def\@tempb{nocompress}\ifx\@tempa\@tempb
+			\def\NAT@cmprs{\z@}\fi
+		\def\@tempb{sort&compress}\ifx\@tempa\@tempb
+			\def\NAT@sort{\@ne}\def\NAT@cmprs{\@ne}\fi
+		\def\@tempb{mcite}\ifx\@tempa\@tempb
+			\let\NAT@merge\@ne\fi
+		\def\@tempb{merge}\ifx\@tempa\@tempb
+			\@ifnum{\NAT@merge<\tw@}{\let\NAT@merge\tw@}{}\fi
+		\def\@tempb{elide}\ifx\@tempa\@tempb
+			\@ifnum{\NAT@merge<\thr@@}{\let\NAT@merge\thr@@}{}\fi
+		\def\@tempb{longnamesfirst}\ifx\@tempa\@tempb
+			\NAT@longnamestrue\fi
+		\def\@tempb{nonamebreak}\ifx\@tempa\@tempb
+			\def\NAT@nmfmt#1{\mbox{\NAT@up#1}}\fi
+		\expandafter\NAT@find@eq\@tempa=\relax\@nil
+   \if\@tempc\relax\else
+     \expandafter\NAT@rem@eq\@tempc
+     \def\@tempb{open}\ifx\@tempa\@tempb
+      \xdef\NAT@open{\@tempc}\fi
+     \def\@tempb{close}\ifx\@tempa\@tempb
+      \xdef\NAT@close{\@tempc}\fi
+     \def\@tempb{aysep}\ifx\@tempa\@tempb
+      \xdef\NAT@aysep{\@tempc}\fi
+     \def\@tempb{yysep}\ifx\@tempa\@tempb
+      \xdef\NAT@yrsep{\@tempc}\fi
+     \def\@tempb{notesep}\ifx\@tempa\@tempb
+      \xdef\NAT@cmt{\@tempc}\fi
+     \def\@tempb{citesep}\ifx\@tempa\@tempb
+      \xdef\NAT@sep{\@tempc}\fi
+   \fi
+  }%
+  \NAT@@setcites
+  }
+  \renewcommand\citestyle[1]{%
+    \ifcsname bibstyle@#1\endcsname%
+    \csname bibstyle@#1\endcsname\let\bibstyle\@gobble%
+    \else%
+    \@latex@error{Undefined `#1' citestyle}%
+    \fi
+  }%
+
+\newcommand{\bibstyle@acmauthoryear}{%
+  \setcitestyle{%
+    authoryear,%
+    open={[},close={]},citesep={;},%
+    aysep={},yysep={,},%
+    notesep={, }}}
+\newcommand{\bibstyle@acmnumeric}{%
+  \setcitestyle{%
+    numbers,sort&compress,%
+    open={[},close={]},citesep={,},%
+    notesep={, }}}
+\citestyle{acmnumeric}
+
 %  Figures and Tables
 \setcounter{topnumber}{1}
 \renewcommand*{\topfraction}{.4}
@@ -1117,7 +1210,7 @@
 	\vfill
 	{
 		% \par\vspace*{7mm}
-	IRB protocol \#{\th@IRBprotocol}}
+	\noindent{}IRB protocol \#{\th@IRBprotocol}}
 }
 \newcommand{\th@Dedicationpage}{
 	\if@makeDedication

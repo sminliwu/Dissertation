@@ -2,10 +2,13 @@
 
 \usepackage{amssymb}		% to get all AMS symbols
 \usepackage{graphicx, booktabs}		% to insert figures
-\usepackage{hyperref}		% PDF hyperreferences??
+\usepackage{url, hyperref}		% PDF hyperreferences??
 \usepackage{xcolor, soul}
-\usepackage{geometry}
-\usepackage{framed}
+\usepackage{geometry, framed}
+
+\usepackage{natbib}
+% \citestyle{acmnumeric}
+
 \usepackage{caption, subfig}
 \captionsetup[figure]{labelfont=bf, font=small}
 
@@ -104,7 +107,7 @@ E-textiles (sometimes called ``smart textiles'') is an emergent technology that 
 	And finally, thank you to all who enable my messy, weird, crafty existence.
 	}
 
-\IRBprotocol{20-0241}	% optional!
+\IRBprotocol{20-0241, 20-2216, 17-0725}	% optional!
 
 % \ToCisShort	% use this only for 1-page Table of Contents
 
@@ -130,14 +133,17 @@ E-textiles (sometimes called ``smart textiles'') is an emergent technology that 
 \input ch_5_loom-pedals.tex
 \input ch_6_speculations.tex
 \input ch_7_conclusion.tex
+\input ch_8_epilogue.tex
 
+\pagebreak
 %%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
-\bibliographystyle{acm}	% or "siam", or "alpha", etc.	% list all refs in database, cited or not
+\bibliographystyle{ACM-Reference-Format}	% or "siam", or "alpha", etc.	% list all refs in database, cited or not
 \bibliography{refs}		% Bib database in "refs.bib"
 
+
 %%%%%%%%%   then the Appendices, if any   %%%%%%%%%
-% \appendix
-% \input apx_glossary.tex
+\appendix
+\input apx_git.tex
 
 
 \end{document}
