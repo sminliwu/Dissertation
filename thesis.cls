@@ -309,8 +309,8 @@
 	\setlength{\headheight}{0.20in}
 	\setlength{\headsep}{0.0in}
 	\setlength{\topskip}{0.40in}	% first line, down from page number
-	\setlength{\textheight}{9.10in}	% 9"-(topmargin+headsep+headheight)
-	\setlength{\footskip}{0pt}
+	\setlength{\textheight}{9.0in}	% 9"-(topmargin+headsep+headheight)
+	\setlength{\footskip}{8pt}
 	\setlength{\oddsidemargin}{0.00in}
 	\setlength{\evensidemargin}{0.00in}
 	\setlength{\parindent}{0.4in}	% somewhere between 0.3" and 0.5"
@@ -840,7 +840,7 @@
 	\setcounter{th@SecNum}{5}
 \else
 	\renewcommand*{\paragraph}[2][\th@DefArg]{
-		{\normalfont\normalsize\bfseries #2}\hspace*{0.89em}}
+		{\normalfont\normalsize\bfseries #2}\hspace*{\parindent}}
 	\renewcommand*{\subparagraph}[2][\th@DefArg]{
 		{\normalfont\normalsize\bfseries #2}\hspace*{0.89em}}
 \fi
@@ -1011,9 +1011,10 @@
 % The base commands that make all of the prologue pages.
 \newcommand*{\th@Titlepage}{
 	\thispagestyle{empty}
+	% \geometry{bmargin=1in}
 	\null\vspace*{\fill}
 	\@thInHeadingtrue
-	\vspace{5mm}
+	% \vspace{5mm}
 	\begin{list}{}{\setlength{\leftmargin}{0.8in}
 				\setlength{\rightmargin}{0.8in}\sloppy}
 		\centering\item[]
@@ -1032,7 +1033,7 @@
 			\fi}
 		\th@otherdegrees\\
 	\end{list}
-	% \vspace{1mm}
+	\vspace{1em}
 	\begin{center}
 		A thesis submitted to the\\
 		Faculty of the Graduate School of the\\
@@ -1043,7 +1044,8 @@
 		\ \th@degreeyear \\
 	\end{center}
 	\begin{flushright}
-	\vspace{1mm}
+	\vspace{1em}
+	\vfill
 	% List committee members on title page
 	Committee Members:\\
 	\th@advisor, Chair\\  % REQUIRED
@@ -1112,6 +1114,10 @@
 	\par
 	\vspace*{4\parsep}
 	\th@abstractStash	% finally, the actual abstract
+	\vfill
+	{
+		% \par\vspace*{7mm}
+	IRB protocol \#{\th@IRBprotocol}}
 }
 \newcommand{\th@Dedicationpage}{
 	\if@makeDedication

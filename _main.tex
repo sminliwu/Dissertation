@@ -1,10 +1,10 @@
-\documentclass[defaultstyle, allheadings, 11pt]{thesis}
+\documentclass[defaultstyle, 11pt]{thesis}
 
 \usepackage{amssymb}		% to get all AMS symbols
 \usepackage{graphicx, booktabs}		% to insert figures
 \usepackage{hyperref}		% PDF hyperreferences??
 \usepackage{xcolor, soul}
-
+\usepackage{geometry}
 \usepackage{framed}
 \usepackage{caption, subfig}
 \captionsetup[figure]{labelfont=bf, font=small}
@@ -93,7 +93,7 @@ E-textiles (sometimes called ``smart textiles'') is an emergent technology that 
 
 	Thank you to my roommates, who helped me build a home in Boulder --- especially Monse.
 
-	Thank you to my backyard flock, my babies, for teaching me how to live with other species. And the nutritious eggs. Pepita, Conchita, Panther, Jaguar, Lupita, Canelia, and \textit{in memoriam:} Jefita and Griselda.
+	Thank you to my backyard flock, my babies, for teaching me how to live with other species. And the nutritious eggs. Pepita, Conchita, Panther, Jaguar, Lupita, Canelita, and \textit{in memoriam:} Jefita and Griselda.
 
 	Thank you to the /r/ADHD Discord server and my co-conspirators in AcaDHD.
 
@@ -102,19 +102,17 @@ E-textiles (sometimes called ``smart textiles'') is an emergent technology that 
 	Thank you to the land and this planet for giving me time and space.
 
 	And finally, thank you to all who enable my messy, weird, crafty existence.
-
-
 	}
 
 \IRBprotocol{20-0241}	% optional!
 
-\ToCisShort	% use this only for 1-page Table of Contents
+% \ToCisShort	% use this only for 1-page Table of Contents
 
 \LoFisShort	% use this only for 1-page Table of Figures
 %\emptyLoF	% use this if there is no List of Figures
 
-% \LoTisShort	% use this only for 1-page Table of Tables
-\emptyLoT	% use this if there is no List of Tables
+\LoTisShort	% use this only for 1-page Table of Tables
+% \emptyLoT	% use this if there is no List of Tables
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%       BEGIN DOCUMENT...         %%%%%%%%%%%%%%%%%
@@ -122,7 +120,7 @@ E-textiles (sometimes called ``smart textiles'') is an emergent technology that 
 
 \begin{document}
 
-\setlength{\parindent}{0.4in}
+\setlength{\parindent}{0.5in}
 \raggedright
 
 \input ch_1_intro.tex

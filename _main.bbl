@@ -32,6 +32,12 @@
   {Interactive} {Systems} - {DIS} '16\/} (Brisbane, QLD, Australia, 2016), ACM
   Press, pp.~895--899.
 
+\bibitem{akin_linen_2013}
+{\sc Akin, D.~E.}
+\newblock Linen {Most} {Useful}: {Perspectives} on {Structure}, {Chemistry},
+  and {Enzymes} for {Retting} {Flax}.
+\newblock {\em ISRN Biotechnology 2013\/} (Dec. 2013), 1--23.
+
 \bibitem{albaugh_threadsteading_2016}
 {\sc Albaugh, L., Grow, A., Liu, C., McCann, J., Smith, G., and Mankoff, J.}
 \newblock Threadsteading: {Playful} {Interaction} for {Textile} {Fabrication}
@@ -91,6 +97,14 @@
 \newblock {AORTA} ({Anti}-{Oppressive} {Resource} \& {Training} {Alliance}),
   2021.
 
+\bibitem{athayde_reconnecting_2017}
+{\sc Athayde, S., Silva-Lugo, J., Schmink, M., Kaiabi, A., and Heckenberger,
+  M.}
+\newblock Reconnecting art and science for sustainability: learning from
+  indigenous knowledge through participatory action-research in the {Amazon}.
+\newblock {\em Ecology and Society 22}, 2 (2017).
+\newblock Publisher: Resilience Alliance Inc.
+
 \bibitem{ravelry_thriftyknitters}
 {\sc Bachuss, B.}
 \newblock Ravelry: {Thrifty} {Knitters}, 2007.
@@ -138,6 +152,12 @@
 {\sc Bernard, H.~R., and Gravlee, C.~C.}
 \newblock {\em Handbook of {Methods} in {Cultural} {Anthropology}}.
 \newblock Rowman \& Littlefield, July 2014.
+
+\bibitem{berzowska_skorpions_2008}
+{\sc Berzowska, J., and Mainstone, D.}
+\newblock {SKORPIONS}: kinetic electronic garments.
+\newblock In {\em {ACM} {SIGGRAPH} 2008 talks\/} (New York, NY, USA, Aug.
+  2008), {SIGGRAPH} '08, Association for Computing Machinery, p.~1.
 
 \bibitem{black_knitting:_2012}
 {\sc Black, S.}
@@ -192,6 +212,17 @@
   {Wearable} {Computers}\/} (New York, NY, USA, Oct. 2018), {ISWC} '18,
   Association for Computing Machinery, pp.~242--247.
 
+\bibitem{WEARSustain_network}
+{\sc Bryan-Kinns, N., Baker, C., Greinke, B., Lasebikan, R., Wu, Y., and Liu,
+  S.}
+\newblock Wear sustain network: Wearable technology innovation.
+
+\bibitem{bryan-wilson_fray_2021}
+{\sc Bryan-Wilson, J.}
+\newblock {\em Fray: {Art} and {Textile} {Politics}}.
+\newblock University of Chicago Press, Feb. 2021.
+\newblock Google-Books-ID: 8JpIDwAAQBAJ.
+
 \bibitem{brydges_closing_2021}
 {\sc Brydges, T.}
 \newblock Closing the loop on take, make, waste: {Investigating} circular
@@ -235,11 +266,25 @@
   {Economy} - {News} - {Cradle} to {Cradle} {Products} {Innovation}
   {Institute}, 2017.
 
+\bibitem{cencen_design_2018}
+{\sc Cencen, A., Verlinden, J.~C., and Geraedts, J. M.~P.}
+\newblock Design {Methodology} to {Improve} {Human}-{Robot} {Coproduction} in
+  {Small}- and {Medium}-{Sized} {Enterprises}.
+\newblock {\em IEEE/ASME Transactions on Mechatronics 23}, 3 (June 2018),
+  1092--1102.
+
 \bibitem{chandler_learning_2009}
 {\sc Chandler, D.}
 \newblock {\em Learning to {Weave}}.
 \newblock Penguin, Apr. 2009.
 \newblock Google-Books-ID: T4BIEAAAQBAJ.
+
+\bibitem{chen_withshare_2019}
+{\sc Chen, J., Hanrahan, B.~V., and Carroll, J.~M.}
+\newblock Withshare: {A} {Mobile} {Application} to {Support} {Community}
+  {Coproduction} {Activities}.
+\newblock {\em International Journal of Mobile Human Computer Interaction 11},
+  1 (Jan. 2019), 40--61.
 
 \bibitem{cheng_duco_2021}
 {\sc Cheng, T., Li, B., Zhang, Y., Li, Y., Ramey, C., Jung, E.~M., Cui, Y.,
@@ -366,13 +411,6 @@
   {Human} {Factors} in {Computing} {Systems}\/} (New York, NY, USA, 2015),
   {CHI} '15, ACM, pp.~2477--2486.
 
-\bibitem{Dew:2018:LWC:3173574.3174159}
-{\sc Dew, K.~N., and Rosner, D.~K.}
-\newblock Lessons from the woodshop: Cultivating design with living materials.
-\newblock In {\em Proceedings of the 2018 CHI Conference on Human Factors in
-  Computing Systems\/} (New York, NY, USA, 2018), CHI '18, ACM,
-  pp.~585:1--585:12.
-
 \bibitem{dew_lessons_2018}
 {\sc Dew, K.~N., and Rosner, D.~K.}
 \newblock Lessons from the {Woodshop}: {Cultivating} {Design} with {Living}
@@ -381,6 +419,13 @@
   {Factors} in {Computing} {Systems}\/} (New York, NY, USA, 2018), {CHI} '18,
   ACM, pp.~585:1--585:12.
 \newblock event-place: Montreal QC, Canada.
+
+\bibitem{Dew:2018:LWC:3173574.3174159}
+{\sc Dew, K.~N., and Rosner, D.~K.}
+\newblock Lessons from the woodshop: Cultivating design with living materials.
+\newblock In {\em Proceedings of the 2018 CHI Conference on Human Factors in
+  Computing Systems\/} (New York, NY, USA, 2018), CHI '18, ACM,
+  pp.~585:1--585:12.
 
 \bibitem{Dew:2019:DWS:3322276.3322320}
 {\sc Dew, K.~N., and Rosner, D.~K.}
@@ -448,6 +493,12 @@
   {Interactive} {Systems}\/} (New York, NY, USA, 2010), {DIS} '10, ACM,
   pp.~1--10.
 
+\bibitem{dukalski_portable_2017}
+{\sc Dukalski, R., Çençen, A., Aschenbrenner, D., and Verlinden, J.}
+\newblock Portable {Rapid} {Visual} {Workflow} {Simulation} {Tool} for {Human}
+  {Robot} {Coproduction}.
+\newblock {\em Procedia Manufacturing 11\/} (2017), 185--197.
+
 \bibitem{dunne_speculative_2013}
 {\sc Dunne, A., and Raby, F.}
 \newblock {\em Speculative {Everything}: {Design}, {Fiction}, and {Social}
@@ -465,15 +516,7 @@
 \bibitem{engineers_complete_2017}
 {\sc Engineers, N. B. o. C.~.}
 \newblock {\em The {Complete} {Technology} {Book} on {Textile} {Spinning},
-  {Weaving}, {Finishing} and {Printing} (3rd {Revised} {Edition}): {How} to
-  {Run} a {Successful} {Textile} {Print} {Business}, {How} to set up my own
-  textile business, {How} to {Start} a {Business} in {Textile} {Sector}, {How}
-  to {Start} a {Small} {Business} in {Textile}, {How} to start a successful
-  {Textile} industry, {How} to start a textile design business, {How} to start
-  a textile industry, {How} to {Start} a {Textile} {Spinning} and {Weaving}
-  {Business}, {How} to start a weaving business, {How} to start textile
-  business, {How} to {Start} {Textile} {Finishing} and {Printing} {Industry} in
-  {India}}.
+  {Weaving}, {Finishing} and {Printing} (3rd {Revised} {Edition})}.
 \newblock ASIA PACIFIC BUSINESS PRESS Inc., Sept. 2017.
 \newblock Google-Books-ID: IdBnCwAAQBAJ.
 
@@ -502,6 +545,11 @@
 {\sc eTextile Summer~Camp}.
 \newblock etextile summer camp, 2018.
 
+\bibitem{fabscrap_fabscrap_2023}
+{\sc {FABSCRAP}}.
+\newblock {FABSCRAP} endeavors to end commercial textile ``waste" and maximize
+  the value of unused fabric, 2023.
+
 \bibitem{fairburn_spheres_2016}
 {\sc Fairburn, S., Steed, J., and Coulter, J.}
 \newblock Spheres of {Practice} for the {Co}-design of {Wearables}.
@@ -522,6 +570,14 @@
 \newblock In {\em Proceedings of the {SIGCHI} {Conference} on {Human} {Factors}
   in {Computing} {Systems}\/} (New York, NY, USA, May 2012), {CHI} '12,
   Association for Computing Machinery, pp.~1593--1602.
+
+\bibitem{fernandez-carames_towards_2018}
+{\sc Fernández-Caramés, T.~M., and Fraga-Lamas, P.}
+\newblock Towards {The} {Internet} of {Smart} {Clothing}: {A} {Review} on {IoT}
+  {Wearables} and {Garments} for {Creating} {Intelligent} {Connected}
+  {E}-{Textiles}.
+\newblock {\em Electronics 7}, 12 (Dec. 2018), 405.
+\newblock Number: 12 Publisher: Multidisciplinary Digital Publishing Institute.
 
 \bibitem{fibershed}
 {\sc Fibershed}.
@@ -606,6 +662,12 @@
   {Limits}\/} (New York, NY, USA, June 2016), {LIMITS} '16, Association for
   Computing Machinery, pp.~1--9.
 
+\bibitem{frater_hand-crafted_2018}
+{\sc Frater, J., and Hawley, J.~M.}
+\newblock A hand-crafted slow revolution: {Co}-designing a new genre in the
+  luxury world.
+\newblock {\em Fashion, Style \& Popular Culture 5}, 3 (Oct. 2018), 299--311.
+
 \bibitem{friske_adacad:_2019}
 {\sc Friske, M., Wu, S., and Devendorf, L.}
 \newblock {AdaCAD}: {Crafting} {Software} {For} {Smart} {Textiles} {Design}.
@@ -657,6 +719,13 @@
 \newblock Systems and methods for {3D} printing with multiple exchangeable
   printheads, June 2015.
 
+\bibitem{goggin_women_2009}
+{\sc Goggin, M.~D., and Tobin, B.~F.}
+\newblock {\em Women and the {Material} {Culture} of {Needlework} and
+  {Textiles}, 1750-1950}.
+\newblock Ashgate, 2009.
+\newblock Google-Books-ID: aKFEAQAAIAAJ.
+
 \bibitem{gomez-barris_extractive_2017}
 {\sc G\'{o}mez-Barris, M.}
 \newblock {\em The {Extractive} {Zone}: {Social} {Ecologies} and {Decolonial}
@@ -678,9 +747,20 @@
   {Factors} in {Computing} {Systems}\/} (New York, NY, USA, May 2021), {CHI}
   '21, Association for Computing Machinery, pp.~1--9.
 
+\bibitem{facebook_group_weaving_nodate}
+{\sc Group, F.}
+\newblock Weaving {Hacks} for {Tools} \& {Accessories}.
+\newblock Publisher: Facebook Groups.
+
 \bibitem{facebookgroup_weaving_nodate}
 {\sc Group, F.}
 \newblock Weaving {Hacks} for {Tools} \& {Accessories}, 2023.
+
+\bibitem{haraway_situated_1988}
+{\sc Haraway, D.}
+\newblock Situated {Knowledges}: {The} {Science} {Question} in {Feminism} and
+  the {Privilege} of {Partial} {Perspective}.
+\newblock {\em Feminist Studies 14}, 3 (1988), 575--599.
 
 \bibitem{haraway_staying_2016}
 {\sc Haraway, D.~J.}
@@ -694,6 +774,11 @@
 \newblock {\em TEXTILE 15}, 2 (Apr. 2017), 176--197.
 \newblock Publisher: Routledge \_eprint:
   https://doi.org/10.1080/14759756.2017.1298239.
+
+\bibitem{harris_digital_2012}
+{\sc Harris, D., and Harris, S.~L.}
+\newblock {\em Digital {Design} and {Computer} {Architecture}}, 2nd edition~ed.
+\newblock Morgan Kaufmann, Amsterdam, Aug. 2012.
 
 \bibitem{hess_sustainability_2014}
 {\sc Hess, D.~J.}
@@ -719,6 +804,12 @@
 {\sc Holyoke, J.}
 \newblock {\em Digital {Jacquard} {Design}}, illustrated edition~ed.
 \newblock Bloomsbury Academic, London ; New York, Dec. 2013.
+
+\bibitem{horrocks_handbook_2016}
+{\sc Horrocks, A.~R., and Anand, S.~C.}
+\newblock {\em Handbook of {Technical} {Textiles}: {Technical} {Textile}
+  {Applications}}.
+\newblock Woodhead Publishing, Mar. 2016.
 
 \bibitem{huang_wovenprobe_2021}
 {\sc Huang, K., Sun, R., Zhang, X., Islam~Molla, M.~T., Dunne, M.,
@@ -750,6 +841,13 @@
   {Architecture}}.
 \newblock Routledge, Apr. 2013.
 \newblock Google-Books-ID: wwzUj2o42fUC.
+
+\bibitem{inman_beautiful_2019}
+{\sc Inman, S., and Ribes, D.}
+\newblock "{Beautiful} {Seams}": {Strategic} {Revelations} and {Concealments}.
+\newblock In {\em Proceedings of the 2019 {CHI} {Conference} on {Human}
+  {Factors} in {Computing} {Systems}\/} (Glasgow, Scotland Uk, May 2019), {CHI}
+  '19, Association for Computing Machinery, pp.~1--14.
 
 \bibitem{jacqcad_2019}
 {\sc International, J.}
@@ -795,11 +893,26 @@
   pp.~1589--1598.
 \newblock event-place: Paris, France.
 
+\bibitem{jansen_how_2019}
+{\sc Jansen, K. M.~B.}
+\newblock How to shape the future of smart clothing.
+\newblock In {\em Adjunct {Proceedings} of the 2019 {ACM} {International}
+  {Joint} {Conference} on {Pervasive} and {Ubiquitous} {Computing} and
+  {Proceedings} of the 2019 {ACM} {International} {Symposium} on {Wearable}
+  {Computers}\/} (New York, NY, USA, Sept. 2019), {UbiComp}/{ISWC} '19
+  {Adjunct}, Association for Computing Machinery, pp.~1037--1039.
+
 \bibitem{jasanoff_states_2010}
 {\sc Jasanoff, S.}, Ed.
 \newblock {\em States of knowledge: the co-production of science and social
   order}, transferred to digital print~ed.
 \newblock International library of sociology. Routledge, London, 2010.
+
+\bibitem{jasanoff_dreamscapes_2015}
+{\sc Jasanoff, S., and Kim, S.-H.}, Eds.
+\newblock {\em Dreamscapes of {Modernity}: {Sociotechnical} {Imaginaries} and
+  the {Fabrication} of {Power}}.
+\newblock University of Chicago Press, Chicago, IL, Sept. 2015.
 
 \bibitem{jo_skinlace_2021}
 {\sc Jo, J., and Kao, C. H.-L.}
@@ -826,6 +939,10 @@
   Australia, Feb. 2020), {TEI} '20, Association for Computing Machinery,
   pp.~165--177.
 
+\bibitem{justice_institute_aboriginal_2023}
+{\sc {Justice Institute}}.
+\newblock Aboriginal {Disaster} {Resilience} {Planning}, 2023.
+
 \bibitem{kafai_ethnocomputing_2014}
 {\sc Kafai, Y., Searle, K., Martinez, C., and Brayboy, B.}
 \newblock Ethnocomputing with {Electronic} {Textiles}: {Culturally}
@@ -834,6 +951,14 @@
 \newblock In {\em Proceedings of the 45th {ACM} {Technical} {Symposium} on
   {Computer} {Science} {Education}\/} (New York, NY, USA, 2014), {SIGCSE} '14,
   ACM, pp.~241--246.
+
+\bibitem{karimi_systems_2018}
+{\sc Karimi, K., and Krit, S.-d.}
+\newblock Systems and technologies for {Smart} {Homes}/{Smart} {Phones}: {A}
+  study and comparison.
+\newblock In {\em Proceedings of the {Fourth} {International} {Conference} on
+  {Engineering} \& {MIS} 2018\/} (Istanbul, Turkey, June 2018), {ICEMIS} '18,
+  Association for Computing Machinery, pp.~1--7.
 
 \bibitem{kato_paper-woven_2022}
 {\sc Kato, K., Ikematsu, K., Igarashi, Y., and Kawahara, Y.}
@@ -910,6 +1035,14 @@
 \newblock How marking in dance constitutes thinking with the body.
 \newblock {\em VERSUS: Quaderni di studi semiotici 113-115\/} (2011), 179--210.
 
+\bibitem{klamka_watchstrap_2020}
+{\sc Klamka, K., Horak, T., and Dachselt, R.}
+\newblock Watch+{Strap}: {Extending} {Smartwatches} with {Interactive}
+  {StrapDisplays}.
+\newblock In {\em Proceedings of the 2020 {CHI} {Conference} on {Human}
+  {Factors} in {Computing} {Systems}\/} (Honolulu HI USA, Apr. 2020), ACM,
+  pp.~1--15.
+
 \bibitem{kniterate}
 {\sc Kniterate}.
 \newblock Kniterate: the digital knitting machine, 2019.
@@ -948,6 +1081,12 @@
   {Computers}\/} (New York, NY, USA, 2015), {UbiComp}/{ISWC}'15 {Adjunct}, ACM,
   pp.~595--600.
 
+\bibitem{kuusk_smart_2014}
+{\sc Kuusk, K., Niinimäki, K., Wensveen, S., and Tomico, O.}
+\newblock {\em Smart {Textile} {Products} and {Services} in {Sustainability}
+  {Context}}.
+\newblock Jan. 2014.
+
 \bibitem{kuznetsov_nurturing_2011}
 {\sc Kuznetsov, S., Odom, W., Pierce, J., and Paulos, E.}
 \newblock Nurturing {Natural} {Sensors}.
@@ -968,6 +1107,13 @@
   electronic textiles.
 \newblock {\em Materials \& Design 51\/} (Oct. 2013), 51--60.
 
+\bibitem{lapina_ozone_2014}
+{\sc Lapina, K., and Lombardozzi, D.}
+\newblock Ozone {Bioindicator} {Gardens}: an {Educational} {Tool} to {Raise}
+  {Awareness} about {Environmental} {Pollution} and its {Effects} on {Living}
+  {Systems}.
+\newblock {\em AGU Fall Meeting Abstracts 21\/} (Dec. 2014), ED21C--3462.
+
 \bibitem{latour_laboratory_2013}
 {\sc Latour, B., and Woolgar, S.}
 \newblock {\em Laboratory {Life}}.
@@ -984,12 +1130,32 @@
 {\sc Lefferts, J.}
 \newblock Mannequin loom, 2019.
 
+\bibitem{lewis_making_2018}
+{\sc Lewis, J.~E., Arista, N., Pechawis, A., and Kite, S.}
+\newblock Making {Kin} with the {Machines}.
+\newblock {\em Journal of Design and Science\/} (July 2018).
+\newblock Publisher: PubPub.
+
+\bibitem{li_wearable_2016}
+{\sc Li, C., Islam, M.~M., Moore, J., Sleppy, J., Morrison, C., Konstantinov,
+  K., Dou, S.~X., Renduchintala, C., and Thomas, J.}
+\newblock Wearable energy-smart ribbons for synchronous energy harvest and
+  storage.
+\newblock {\em Nature Communications 7\/} (Nov. 2016), ncomms13319.
+
 \bibitem{light_design_2017}
 {\sc Light, A., Shklovski, I., and Powell, A.}
 \newblock Design for {Existential} {Crisis}.
 \newblock In {\em Proceedings of the 2017 {CHI} {Conference} {Extended}
   {Abstracts} on {Human} {Factors} in {Computing} {Systems}\/} (New York, NY,
   USA, 2017), {CHI} {EA} '17, ACM, pp.~722--734.
+
+\bibitem{lin_designing_2020}
+{\sc Lin, Y.-T., Sun, H., and Wang, S.}
+\newblock Designing {Sustainable} {Products} {Under} {Coproduction}
+  {Technology}.
+\newblock {\em Manufacturing \& Service Operations Management 22}, 6 (Nov.
+  2020), 1181--1198.
 
 \bibitem{lingel_poetics_2016}
 {\sc Lingel, J.}
@@ -1181,6 +1347,12 @@
   {Perspective}}, 2~ed.
 \newblock Routledge, New York, June 2019.
 
+\bibitem{monteiro_fabric_2017}
+{\sc Monteiro, S.}
+\newblock {\em The {Fabric} of {Interface}: {Mobile} {Media}, {Design}, and
+  {Gender}}.
+\newblock The MIT Press, 2017.
+
 \bibitem{montero_spinning_2021}
 {\sc Montero, V., and De~Berduccy, S.}
 \newblock Spinning the {Conductors} of an {Indigenous} {Tradition}: {Toward} a
@@ -1193,6 +1365,13 @@
 {\sc Moodie, M.}
 \newblock {\em On the {Loom}: {A} {Modern} {Weaver}'s {Guide}}.
 \newblock Abrams, New York, NY, Sept. 2016.
+
+\bibitem{motti_wearable_2019}
+{\sc Motti, V.~G.}
+\newblock Wearable {Health}: {Opportunities} and {Challenges}.
+\newblock In {\em Proceedings of the 13th {EAI} {International} {Conference} on
+  {Pervasive} {Computing} {Technologies} for {Healthcare}\/} (Trento Italy, May
+  2019), ACM, pp.~356--359.
 
 \bibitem{mueller_constructable_2013}
 {\sc Mueller, S., Lopes, P., Kaefer, K., Kruck, B., and Baudisch, P.}
@@ -1261,12 +1440,26 @@
   {Early} {Electronic} {Manufacture}.
 \newblock {\em American Quarterly 66}, 4 (2014), 919--941.
 
+\bibitem{nardi_computing_2018}
+{\sc Nardi, B., Tomlinson, B., Patterson, D.~J., Chen, J., Pargman, D.,
+  Raghavan, B., and Penzenstadler, B.}
+\newblock Computing within limits.
+\newblock {\em Communications of the ACM 61}, 10 (Sept. 2018), 86--93.
+
 \bibitem{nasr_fundamentals_2020}
 {\sc Nasr, N.}, Ed.
 \newblock {\em Fundamentals of remanufacturing: operations, engineering and
   logistics}, 1~ed.
 \newblock John Wiley \& Sons, Inc. ; Scrivener Publishing LLC, Hoboken, New
   Jersey : Salem, Massachusetts, 2020.
+
+\bibitem{bisello_living_2017}
+{\sc Nesti, G.}
+\newblock Living {Labs}: {A} {New} {Tool} for {Co}-production?
+\newblock In {\em Smart and {Sustainable} {Planning} for {Cities} and
+  {Regions}}, A.~Bisello, D.~Vettorato, R.~Stephens, and P.~Elisei, Eds.
+  Springer International Publishing, Cham, 2017, pp.~267--281.
+\newblock Series Title: Green Energy and Technology.
 
 \bibitem{neustaedter_autobiographical_2012}
 {\sc Neustaedter, C., and Sengers, P.}
@@ -1307,6 +1500,16 @@
 {\sc Norway, D.~W.}
 \newblock {TC}2 {Digital} {Jacquard} {Loom}, 2019.
 
+\bibitem{odom_time_2018}
+{\sc Odom, W., Lindley, S., Pschetz, L., Tsaknaki, V.,
+  Vallg{\textbackslash}a~arda, A., Wiberg, M., and Yoo, D.}
+\newblock Time, {Temporality}, and {Slowness}: {Future} {Directions} for
+  {Design} {Research}.
+\newblock In {\em Proceedings of the 2018 {ACM} {Conference} {Companion}
+  {Publication} on {Designing} {Interactive} {Systems}\/} (New York, NY, USA,
+  2018), {DIS} '18 {Companion}, ACM, pp.~383--386.
+\newblock event-place: Hong Kong, China.
+
 \bibitem{okazaki_metamocrochet_2014}
 {\sc Okazaki, M., Nakagaki, K., and Kakehi, Y.}
 \newblock {metamoCrochet}: augmenting crocheting with bi-stable color changing
@@ -1346,6 +1549,18 @@
 \newblock {\em The {Subversive} {Stitch}: {Embroidery} and the {Making} of the
   {Feminine}}.
 \newblock I.B. Tauris, 2010.
+
+\bibitem{patron_use_2016}
+{\sc Patron, D., Mongan, W., Kurzweg, T.~P., Fontecchio, A., Dion, G., Anday,
+  E.~K., and Dandekar, K.~R.}
+\newblock On the {Use} of {Knitted} {Antennas} and {Inductively} {Coupled}
+  {RFID} {Tags} for {Wearable} {Applications}.
+\newblock {\em IEEE Transactions on Biomedical Circuits and Systems 10}, 6
+  (Dec. 2016), 1047--1057.
+
+\bibitem{pepe_hot_2017}
+{\sc Pepe, S.}
+\newblock Hot {Mess} {Formalism}, 2017.
 
 \bibitem{petrelli_exploring_2016}
 {\sc Petrelli, D., Soranzo, A., Ciolfi, L., and Reidy, J.}
@@ -1404,8 +1619,7 @@
 {\sc Postrel, V.}
 \newblock {\em The {Fabric} of {Civilization}: {How} {Textiles} {Made} the
   {World}}.
-\newblock Basic Books, Nov. 2020.
-\newblock Google-Books-ID: KSUBEAAAQBAJ.
+\newblock Basic Books, New York, Nov. 2020.
 
 \bibitem{ivan_keynote}
 {\sc Poupyrev, I.}
@@ -1453,6 +1667,12 @@
 \newblock {\em The {Nature} and {Art} of {Workmanship}}.
 \newblock A\&C Black, London, July 2007.
 
+\bibitem{queen_of_raw_queen_2023}
+{\sc {Queen of Raw}}.
+\newblock Queen of {Raw}: {Excess} {Inventory} {Software} - {Recycle}, {Buy}
+  and {Sell} {Online} - {Sustainable} {Materials} and {Deadstock} {Fabric}
+  {Textiles}, 2023.
+
 \bibitem{raghavan_means_2017}
 {\sc Raghavan, B., and Pargman, D.}
 \newblock Means and {Ends} in {Human}-{Computer} {Interaction}:
@@ -1464,6 +1684,15 @@
 \bibitem{rataj_tips_2020}
 {\sc Rataj, A.}
 \newblock Tips for {Weaving} {Samples}, June 2020.
+
+\bibitem{rathnayake_yarns_2015}
+{\sc Rathnayake, A., and Dias, T.}
+\newblock Yarns with {Embedded} {Electronics}.
+\newblock In {\em Adjunct {Proceedings} of the 2015 {ACM} {International}
+  {Joint} {Conference} on {Pervasive} and {Ubiquitous} {Computing} and
+  {Proceedings} of the 2015 {ACM} {International} {Symposium} on {Wearable}
+  {Computers}\/} (New York, NY, USA, 2015), {UbiComp}/{ISWC}'15 {Adjunct}, ACM,
+  pp.~385--388.
 
 \bibitem{rebay-salisbury_knowledge_2014}
 {\sc Rebay-Salisbury, K., Brysbaert, A., and Foxhall, L.}
@@ -1546,6 +1775,12 @@
   {XP2016}\/} (Edinburgh, Scotland, UK, May 2016), {XP} '16 {Workshops},
   Association for Computing Machinery, pp.~1--5.
 
+\bibitem{rose_power_2019}
+{\sc Rose, D., and Kalathil, J.}
+\newblock Power, {Privilege} and {Knowledge}: the {Untenable} {Promise} of
+  {Co}-production in {Mental} “{Health}”.
+\newblock {\em Frontiers in Sociology 4\/} (July 2019), 57.
+
 \bibitem{rosner_critical_2018}
 {\sc Rosner, D.~K.}
 \newblock {\em Critical {Fabulations}: {Reworking} the {Methods} and {Margins}
@@ -1573,6 +1808,12 @@
 \newblock {\em Contemporary {Weaving}: {Bold} {Colour}, {Texture} \& {Design}
   on the {Frame} {Loom}}.
 \newblock C\&T Publishing / Stash Books, Lafayette, CA, Mar. 2023.
+
+\bibitem{ruckdashel_smart_2021}
+{\sc Ruckdashel, R.~R., Venkataraman, D., and Park, J.~H.}
+\newblock Smart textiles: {A} toolkit to fashion the future.
+\newblock {\em Journal of Applied Physics 129}, 13 (Apr. 2021), 130903.
+\newblock Publisher: American Institute of Physics.
 
 \bibitem{sandin_environmental_2018}
 {\sc Sandin, G., and Peters, G.~M.}
@@ -1747,6 +1988,12 @@
 \newblock In {\em Proceedings of the 2016 {CHI} {Conference} {Extended}
   {Abstracts} on {Human} {Factors} in {Computing} {Systems}\/} (New York, NY,
   USA, 2016), {CHI} {EA} '16, ACM, pp.~2328--2333.
+
+\bibitem{thompson_cotton_1922}
+{\sc Thompson, E.~B.}
+\newblock {\em Cotton and {Linen}}.
+\newblock Ronald Press Company, 1922.
+\newblock Google-Books-ID: VRE9AAAAYAAJ.
 
 \bibitem{tran_oleary_grammar_2021}
 {\sc Tran~O'Leary, J., Lee, K., and Peek, N.}
@@ -1957,6 +2204,12 @@
 \bibitem{unravellingclub}
 {\sc Yarn, R.}
 \newblock Unraveling club: Get yarn from sweaters!, 2019.
+
+\bibitem{yunan_evolutionary_2021}
+{\sc Yunan, X., Weixin, L., Yujie, Y., and Hui, W.}
+\newblock Evolutionary game for the stakeholders in livestock pollution control
+  based on circular economy.
+\newblock {\em Journal of Cleaner Production 282\/} (Feb. 2021), 125403.
 
 \bibitem{zeagler_where_2017}
 {\sc Zeagler, C.}
